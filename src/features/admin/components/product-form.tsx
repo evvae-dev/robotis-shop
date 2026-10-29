@@ -17,7 +17,7 @@ import { ModelUploader } from "./model-uploader";
 const basics = ["상품코드", "제조사", "원산지", "준비기간"];
 const lines = (value: string) => value.split("\n").map((line) => line.trim()).filter(Boolean);
 
-export function ProductForm({ initialProduct, navigation }: { initialProduct?: AdminProduct; navigation: NavigationGroup[] }) {
+export function ProductForm({ initialProduct, navigation, maxCadUploadMb }: { initialProduct?: AdminProduct; navigation: NavigationGroup[]; maxCadUploadMb: number }) {
   const router = useRouter();
   const [form, setForm] = useState<ProductInput>(() => initialProduct ? {
     ...initialProduct, series: initialProduct.series as ProductInput["series"], communication: initialProduct.communication as ProductInput["communication"],
@@ -48,7 +48,7 @@ export function ProductForm({ initialProduct, navigation }: { initialProduct?: A
     {feedback && <p role={feedback.ok ? "status" : "alert"} className={`admin-feedback ${feedback.ok ? "success" : "error"}`}>{feedback.message}</p>}
     {initialProduct?.deleted && <p className="admin-feedback error">삭제된 상품입니다. 저장하면 복구되며, 노출 상태에 따라 스토어에 표시됩니다.</p>}
     <div className="admin-product-form-layout"><div className="admin-product-form-main">
-      <ModelUploader model={model} onBusyChange={setConverting} onChange={(next) => { setModel(next); update("modelId", next?.id ?? null); }} />
+      <ModelUploader model={model} maxUploadMb={maxCadUploadMb} onBusyChange={setConverting} onChange={(next) => { setModel(next); update("modelId", next?.id ?? null); }} />
       <section className="admin-card admin-form-card"><div className="admin-card-title"><h2>기본 정보</h2><span>필수 정보</span></div><div className="admin-form-grid">
         <label className="admin-field"><span>상품 ID <b>*</b></span><input aria-label="상품 ID" required pattern={"[a-zA-Z0-9_\\-]{1,80}"} maxLength={80} readOnly={!!initialProduct} placeholder="예: 902-0209-000" value={form.id} onChange={(event) => update("id", event.target.value)} /><small>{initialProduct ? "등록된 상품 ID는 변경할 수 없습니다." : "영문·숫자·하이픈·밑줄을 사용할 수 있습니다."}</small></label>
         <label className="admin-field"><span>상품명 <b>*</b></span><input aria-label="상품명" required maxLength={160} value={form.name} onChange={(event) => update("name", event.target.value)} /></label>

@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { CadError, convertStep } from "@/lib/cad-converter";
+import { getCadConfig } from "@/lib/cad-config";
 
 export const runtime = "nodejs";
 export const maxDuration = 300;
@@ -9,7 +10,8 @@ export async function POST(request: Request) {
   const origin = request.headers.get("origin");
   // Next.js 내부 URL은 localhost로 정규화될 수 있어 실제 요청의 Host와 비교합니다.
   if (origin && !["http:", "https:"].some((protocol) => origin === `${protocol}//${request.headers.get("host")}`)) return NextResponse.json({ message: "같은 사이트에서 파일을 올려 주세요." }, { status: 403 });
-  if (Number(request.headers.get("content-length")) > 50 * 1024 * 1024 + 65536) return NextResponse.json({ message: "STEP 파일은 50MB 이하로 올려 주세요." }, { status: 413 });
+  const { maxUploadMb } = getCadConfig();
+  if (Number(request.headers.get("content-length")) > maxUploadMb * 1024 * 1024 + 65536) return NextResponse.json({ message: `STEP 파일은 ${maxUploadMb}MB 이하로 올려 주세요.` }, { status: 413 });
   if (converting) return NextResponse.json({ message: "다른 모델을 변환 중입니다. 완료 후 다시 시도해 주세요." }, { status: 409 });
   converting = true;
   try {

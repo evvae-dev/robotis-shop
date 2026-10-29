@@ -102,7 +102,7 @@ npm run cad:setup
 Windows에서는 프로젝트 전용 `.venv-cad`에 Open CASCADE를 설치하고, Blender 4.5 LTS 공식 배포본을 SHA-256 검증 후 `.tools`에 설치합니다. 다른 운영체제에서는 Blender를 별도로 설치하고 `BLENDER_PATH`를 지정합니다. 기존 도구를 사용할 때는 `.env.local`에 `CAD_PYTHON_PATH`, `BLENDER_PATH`를 절대 경로로 지정합니다. Python 환경에는 `scripts/cad/requirements.txt`의 패키지가 필요합니다.
 
 1. 관리자 상품 등록·수정 화면의 **3D CAD 모델**에서 `.step` 또는 `.stp` 파일을 선택합니다.
-2. **STEP 파일 변환**을 누릅니다. 최대 50MB이며 복잡한 모델은 수 분이 걸릴 수 있습니다.
+2. **STEP 파일 변환**을 누릅니다. 로컬은 최대 50MB, Vercel에서 원격 변환할 때는 업로드 제한을 고려해 최대 4MB입니다. 복잡한 모델은 변환에 수 분이 걸릴 수 있습니다.
 3. 변환 완료 후 **상품 저장**을 누르면 해당 상품 상세에 3D 뷰어가 표시됩니다. **연결 해제**도 상품을 저장해야 반영됩니다.
 
 Open CASCADE가 CAD 곡면을 메시로 만들고 Blender가 중심·크기·표면을 정리해 GLB로 내보냅니다. 큰 메시는 최대 약 30만 삼각형을 목표로 줄이며, GLB는 최대 32MB입니다. 원본의 색상·부품 계층 대신 밝은 단일 재질로 외관을 표현합니다. 프론트의 짙은 배경·측면 조명·바닥 그림자가 밝은 모델의 윤곽과 구멍을 구분해 줍니다. 원본 치수는 mm로 보관하고 화면 표시 크기만 정규화합니다.
@@ -130,13 +130,22 @@ Cloud Run의 저장소 빌드 설정은 다음과 같습니다.
 | 컨테이너당 최대 동시 요청 | `1` |
 | 요청 제한 시간 | `420`초 |
 
-Cloud Run 환경변수 `CAD_API_TOKEN`에는 충분히 긴 임의 값을 Secret으로 지정합니다. 이 값은 관리자 로그인과 별개인 서버 간 호출 키이며 브라우저에 공개하지 않습니다. 미설정 상태에서도 `/health`는 응답하지만 변환 요청은 `503`으로 거부합니다. Cloud Run에서 공개 액세스를 허용하더라도 `/convert`는 이 키가 있어야 실행됩니다.
+포트폴리오의 요청에 따라 Cloud Run API는 토큰 검사 없이 실행합니다. `CAD_API_TOKEN`은 사용하지 않습니다. Cloud Run의 공개 액세스를 허용해야 Vercel에서 호출할 수 있습니다. 공개된 변환 API의 외부 호출도 사용량에 포함됩니다.
 
 - `GET /health`: `{"status":"ok","service":"robotis-cad"}` 응답.
-- `POST /convert`: `Authorization: Bearer <CAD_API_TOKEN>` 헤더와 multipart `file` 필드의 STEP/STP 파일을 받습니다. Cloud Run HTTP/1 요청 크기 제한을 고려해 입력은 최대 30MB입니다.
+- `POST /convert`: multipart `file` 필드의 STEP/STP 파일을 받습니다. Cloud Run HTTP/1 요청 크기 제한을 고려해 API 자체 입력은 최대 30MB이며, Vercel을 경유하는 관리자 업로드는 최대 4MB입니다.
 - 성공 시 GLB 바이너리를 반환합니다. `X-CAD-Metadata` 헤더는 치수·삼각형 수·Blender 버전 JSON을 Base64로 인코딩한 값입니다. GLB는 최대 32MB이며 응답 후 임시 파일을 제거합니다.
 
-이 배포는 변환 API를 실행하기 위한 단계입니다. 현재 Vercel 관리자는 기존 로컬 변환 경로를 사용하며, Cloud Run API 호출과 GLB의 Cloud Storage 영구 저장 연결은 아직 적용하지 않았습니다. 따라서 Cloud Run 배포 성공만으로 배포된 관리자에서 STEP 변환이 연결되지는 않습니다.
+Vercel의 서버 전용 환경변수에 다음 값을 설정한 뒤 재배포합니다. 로컬 `.env.local`에서는 두 값을 비워 기존 Blender 변환과 로컬 파일 저장을 유지합니다.
+
+| 환경변수 | 값 |
+| --- | --- |
+| `CAD_API_URL` | `https://robotis-shop-git-610142854589.asia-northeast3.run.app` (`/convert` 제외) |
+| `CAD_STORAGE_BUCKET` | STEP 원본과 GLB를 영구 저장할 Cloud Storage 버킷 이름 (`gs://` 제외) |
+
+버킷은 Firebase 프로젝트의 기본 버킷일 필요가 없습니다. 기존 Cloud Run 프로젝트에 별도로 생성한 비공개 Google Cloud Storage 버킷을 사용할 수 있습니다. Vercel의 Firebase 서비스 계정에는 해당 버킷의 객체 목록 조회·읽기·쓰기·삭제 권한이 필요합니다. 버킷 단위로 `Storage Object Admin` 역할을 부여하면 됩니다. 버킷 전체를 공개하거나 브라우저에 서비스 계정 키를 전달하지 않습니다.
+
+관리자는 Vercel의 `/api/admin/models`로 파일을 올리고, Vercel은 Cloud Run의 `/convert`를 호출합니다. 원본과 GLB를 버킷에 저장한 뒤 Firestore `modelAssets`에 저장 위치를 기록합니다. 상품 저장 방식은 기존과 같으며 상품상세의 `/api/models/{UUID}`가 비공개 버킷의 GLB를 스트리밍합니다. 기존 로컬 모델은 계속 로컬 파일에서 읽습니다. API 응답은 최대 270초 기다리며, 저장소 설정이 없으면 변환을 시작하기 전에 오류를 반환합니다.
 
 최소 인스턴스가 0이어도 요청 처리, Cloud Build, Artifact Registry 이미지 저장과 네트워크 사용량에는 무료 한도 초과 요금이 발생할 수 있습니다. 최대 인스턴스 1은 비용 상한이 아닙니다.
 

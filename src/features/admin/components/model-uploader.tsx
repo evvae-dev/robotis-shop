@@ -4,7 +4,7 @@ import { useState } from "react";
 import type { ProductModel } from "@/features/products/types/product";
 import { Icon } from "@/components/ui/icon";
 
-export function ModelUploader({ model, onChange, onBusyChange }: { model: ProductModel | null; onChange: (model: ProductModel | null) => void; onBusyChange: (busy: boolean) => void }) {
+export function ModelUploader({ model, maxUploadMb, onChange, onBusyChange }: { model: ProductModel | null; maxUploadMb: number; onChange: (model: ProductModel | null) => void; onBusyChange: (busy: boolean) => void }) {
   const [file, setFile] = useState<File | null>(null);
   const [busy, setBusy] = useState(false);
   const [feedback, setFeedback] = useState<{ ok: boolean; message: string } | null>(null);
@@ -16,7 +16,7 @@ export function ModelUploader({ model, onChange, onBusyChange }: { model: Produc
       const body = new FormData();
       body.append("file", file);
       const response = await fetch("/api/admin/models", { method: "POST", body });
-      const result = await response.json();
+      const result = await response.json().catch(() => { throw new Error(response.status === 413 ? `STEP 파일은 ${maxUploadMb}MB 이하로 올려 주세요.` : "변환 서버의 응답을 확인할 수 없습니다. 잠시 후 다시 시도해 주세요."); });
       if (!response.ok) throw new Error(result.message || "변환에 실패했습니다.");
       onChange(result.model);
       setFeedback({ ok: true, message: "변환을 완료했습니다. 상품을 저장하면 상세페이지에 반영됩니다." });
@@ -31,9 +31,9 @@ export function ModelUploader({ model, onChange, onBusyChange }: { model: Produc
     <label className="admin-field"><span>CAD 파일 선택</span><input type="file" aria-label="3D CAD STEP 파일" accept=".step,.stp" disabled={busy} onChange={(event) => {
       const next = event.target.files?.[0] || null;
       setFeedback(null);
-      if (next && (!/\.(step|stp)$/i.test(next.name) || next.size > 50 * 1024 * 1024)) { setFile(null); setFeedback({ ok: false, message: "50MB 이하의 STEP 또는 STP 파일을 선택해 주세요." }); return; }
+      if (next && (!/\.(step|stp)$/i.test(next.name) || next.size > maxUploadMb * 1024 * 1024)) { setFile(null); setFeedback({ ok: false, message: `${maxUploadMb}MB 이하의 STEP 또는 STP 파일을 선택해 주세요.` }); return; }
       setFile(next);
-    }} /><small>STEP·STP / 최대 50MB. 복잡한 모델은 변환에 수 분이 걸릴 수 있습니다.</small></label>
+    }} /><small>STEP·STP / 최대 {maxUploadMb}MB. 복잡한 모델은 변환에 수 분이 걸릴 수 있습니다.</small></label>
     <div className="admin-cad-actions"><button type="button" className="admin-button secondary" disabled={!file || busy} onClick={convert}><Icon name="box" size={16} />{busy ? "CAD 모델 변환 중…" : "STEP 파일 변환"}</button>{busy && <span role="status">파일을 변환하고 있습니다. 화면을 유지해 주세요.</span>}</div>
     {feedback && <p role={feedback.ok ? "status" : "alert"} className={`admin-feedback ${feedback.ok ? "success" : "error"}`}>{feedback.message}</p>}
     {model && <div className="admin-cad-asset"><div className="admin-cad-asset-icon"><Icon name="box" size={25} /></div><div><strong>{model.sourceName}</strong><small>GLB · {(model.bytes / 1024 / 1024).toFixed(2)}MB · {model.triangles.toLocaleString()} 삼각형</small><small>{model.dimensionsMm.join(" × ")} mm</small></div><button type="button" className="admin-text-button" disabled={busy} onClick={() => { onChange(null); setFeedback({ ok: true, message: "모델 연결을 해제했습니다. 상품을 저장하면 반영됩니다." }); }}>연결 해제</button></div>}

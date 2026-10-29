@@ -1,6 +1,5 @@
 """Cloud Run 전용 STEP → GLB API. 임시 파일은 응답 이후 정리합니다."""
 import base64
-import hmac
 import json
 import os
 from pathlib import Path
@@ -10,7 +9,7 @@ import sys
 import tempfile
 import threading
 
-from fastapi import Depends, FastAPI, Header, HTTPException, UploadFile
+from fastapi import FastAPI, HTTPException, UploadFile
 from starlette.background import BackgroundTask
 from starlette.responses import FileResponse
 import uvicorn
@@ -21,15 +20,6 @@ MAX_INPUT = 30 * 1024 * 1024
 MAX_OUTPUT = 32 * 1024 * 1024
 CONVERTING = threading.Lock()
 app = FastAPI(docs_url=None, redoc_url=None, openapi_url=None)
-
-
-def authorize(authorization: str = Header(default="")):
-    # 관리자 로그인과 별개인 서버 간 호출 키입니다. 미설정 시 변환을 열지 않습니다.
-    token = os.environ.get("CAD_API_TOKEN", "")
-    if not token:
-        raise HTTPException(503, "CAD_API_TOKEN 환경변수를 설정해 주세요.")
-    if not hmac.compare_digest(authorization.encode(), f"Bearer {token}".encode()):
-        raise HTTPException(401, "올바른 CAD API 인증이 필요합니다.")
 
 
 @app.get("/")
@@ -46,7 +36,7 @@ def run_tool(arguments):
     )
 
 
-@app.post("/convert", dependencies=[Depends(authorize)])
+@app.post("/convert")
 def convert(file: UploadFile):
     if Path(file.filename or "").suffix.lower() not in (".step", ".stp"):
         raise HTTPException(400, "STEP 또는 STP 파일을 선택해 주세요.")

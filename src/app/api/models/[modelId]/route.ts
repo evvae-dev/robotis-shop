@@ -3,6 +3,7 @@ import { stat } from "node:fs/promises";
 import path from "node:path";
 import { Readable } from "node:stream";
 import { getAdminDb } from "@/lib/firebase/admin";
+import { getCadBucket } from "@/lib/firebase/storage";
 import { MODEL_ID, modelDirectory } from "@/lib/cad-converter";
 
 export const runtime = "nodejs";
@@ -12,6 +13,15 @@ export async function GET(_request: Request, { params }: { params: { modelId: st
   if (!MODEL_ID.test(params.modelId)) return new Response(null, { status: 404 });
   const asset = await getAdminDb().collection("modelAssets").doc(params.modelId).get();
   if (!asset.exists) return new Response(null, { status: 404 });
+  const storage = asset.data()?.storage;
+  if (storage) {
+    if (typeof storage.bucket !== "string" || storage.object !== `cad-models/${params.modelId}/model.glb`) return new Response(null, { status: 404 });
+    const file = getCadBucket(storage.bucket).file(storage.object);
+    const [exists] = await file.exists();
+    if (!exists) return new Response(null, { status: 404 });
+    // 같은 출처에서 스트리밍하므로 버킷 공개 설정이나 CORS 변경이 필요하지 않습니다.
+    return new Response(Readable.toWeb(file.createReadStream()) as ReadableStream, { headers: { "Content-Type": "model/gltf-binary", "Cache-Control": "public, max-age=31536000, immutable", "X-Content-Type-Options": "nosniff" } });
+  }
   const filename = path.join(modelDirectory(params.modelId), "model.glb");
   const info = await stat(filename).catch(() => null);
   if (!info) return new Response(null, { status: 404 });
