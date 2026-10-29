@@ -1,0 +1,13 @@
+# 허용한 CAD 파일만 빌드 컨텍스트에 넣어 인증키·로컬 모델·쇼핑몰 의존성을 제외합니다.
+**
+!Dockerfile
+!.dockerignore
+!scripts/
+!scripts/cad/
+!scripts/cad/requirements.txt
+!scripts/cad/tessellate-step.py
+!scripts/cad/export-glb.py
+!services/
+!services/cad/
+!services/cad/requirements.txt
+!services/cad/app.py

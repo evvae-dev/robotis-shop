@@ -111,6 +111,35 @@ Open CASCADE가 CAD 곡면을 메시로 만들고 Blender가 중심·크기·표
 
 이 기능은 Blender 프로세스를 실행할 수 있는 Node.js 서버와 영구 저장소가 필요합니다. 서버 이전 시 `.data/models`도 함께 옮기거나 같은 `CAD_STORAGE_PATH`를 연결해야 합니다. Edge 런타임 및 임시 파일시스템만 제공하는 서버리스 환경에서는 별도 변환 서버·파일 저장소가 필요합니다.
 
+### Cloud Run CAD API 배포
+
+저장소 루트의 `Dockerfile`은 쇼핑몰이 아닌 CAD 변환 API 전용입니다. 기존 Vercel 쇼핑몰 배포와 함께 같은 저장소를 사용합니다. `.dockerignore`가 필요한 CAD 소스만 허용하므로 Firebase 인증키, `.env.local`, 로컬 모델과 도구는 이미지에 포함되지 않습니다. Blender 4.5.15 Linux 배포본은 공식 SHA-256 값으로 검증합니다.
+
+Cloud Run의 저장소 빌드 설정은 다음과 같습니다.
+
+| 항목 | 값 |
+| --- | --- |
+| 저장소 / 브랜치 | `evvae-dev/robotis-shop` / `main` |
+| 빌드 방식 | Dockerfile |
+| Dockerfile 경로 | `Dockerfile` (저장소 루트) |
+| 빌드 컨텍스트 | `.` (저장소 루트) |
+| 컨테이너 포트 | `8080` |
+| 결제 / 확장 | 요청 기반 / 자동 확장 |
+| 최소 / 최대 인스턴스 | `0` / `1` |
+| CPU / 메모리 | 시작값 `1 vCPU` / `2 GiB`, 큰 모델은 실제 사용량 확인 후 조정 |
+| 컨테이너당 최대 동시 요청 | `1` |
+| 요청 제한 시간 | `420`초 |
+
+Cloud Run 환경변수 `CAD_API_TOKEN`에는 충분히 긴 임의 값을 Secret으로 지정합니다. 이 값은 관리자 로그인과 별개인 서버 간 호출 키이며 브라우저에 공개하지 않습니다. 미설정 상태에서도 `/health`는 응답하지만 변환 요청은 `503`으로 거부합니다. Cloud Run에서 공개 액세스를 허용하더라도 `/convert`는 이 키가 있어야 실행됩니다.
+
+- `GET /health`: `{"status":"ok","service":"robotis-cad"}` 응답.
+- `POST /convert`: `Authorization: Bearer <CAD_API_TOKEN>` 헤더와 multipart `file` 필드의 STEP/STP 파일을 받습니다. Cloud Run HTTP/1 요청 크기 제한을 고려해 입력은 최대 30MB입니다.
+- 성공 시 GLB 바이너리를 반환합니다. `X-CAD-Metadata` 헤더는 치수·삼각형 수·Blender 버전 JSON을 Base64로 인코딩한 값입니다. GLB는 최대 32MB이며 응답 후 임시 파일을 제거합니다.
+
+이 배포는 변환 API를 실행하기 위한 단계입니다. 현재 Vercel 관리자는 기존 로컬 변환 경로를 사용하며, Cloud Run API 호출과 GLB의 Cloud Storage 영구 저장 연결은 아직 적용하지 않았습니다. 따라서 Cloud Run 배포 성공만으로 배포된 관리자에서 STEP 변환이 연결되지는 않습니다.
+
+최소 인스턴스가 0이어도 요청 처리, Cloud Build, Artifact Registry 이미지 저장과 네트워크 사용량에는 무료 한도 초과 요금이 발생할 수 있습니다. 최대 인스턴스 1은 비용 상한이 아닙니다.
+
 ## 소스 구조
 
 ```text
