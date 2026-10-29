@@ -1,0 +1,46 @@
+{
+  "name": "robotis-shop",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "cad:setup": "node scripts/setup-cad.mjs",
+    "data:crawl": "node scripts/crawl-catalog.mjs",
+    "data:import": "node scripts/import-catalog.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/noto-sans-kr": "^5.3.1",
+    "@react-three/drei": "9.122.0",
+    "@react-three/fiber": "8.18.0",
+    "ag-grid-community": "^36.2.0",
+    "ag-grid-react": "^36.2.0",
+    "cheerio": "^1.2.0",
+    "client-only": "0.0.1",
+    "firebase": "13.1.0",
+    "firebase-admin": "^13.10.0",
+    "framer-motion": "11.18.2",
+    "next": "14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "server-only": "^0.0.1",
+    "three": "0.170.0",
+    "zod": "^4.6.7",
+    "zustand": "4.5.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@types/three": "0.170.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "3.4.19",
+    "typescript": "^5.7.0"
+  }
+}

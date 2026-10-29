@@ -1,0 +1,3009 @@
+{
+  "schemaVersion": 1,
+  "crawledAt": "2026-10-28T07:05:19.629Z",
+  "sources": {
+    "home": "https://www.robotis.com/shop/",
+    "list": "https://www.robotis.com/shop/list.php?ca_id=2050",
+    "detail": "https://www.robotis.com/shop/item.php?it_id=905-0058-000"
+  },
+  "products": [
+    {
+      "id": "905-0058-000",
+      "name": "HX5-D20-MRT",
+      "summary": "20DoF 로봇핸드 (오른손)",
+      "price": 8800000,
+      "priceLabel": "",
+      "imageUrl": "/media/95637f587ccc2dc132.png",
+      "gallery": [
+        "/media/95637f587ccc2dc132.png",
+        "https://www.robotis.com/data/item/905-0058-000/tn_HX5_R_02.png",
+        "https://www.robotis.com/data/item/905-0058-000/tn_HX5_R_03.png"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/905-0058-000/tn_HX5_R_01.png",
+      "categoryIds": [
+        "4010"
+      ],
+      "categoryName": "전문가용로봇",
+      "series": "",
+      "communication": "",
+      "torqueNm": null,
+      "voltageV": null,
+      "speedRpm": null,
+      "leadTime": "60일 (휴일미포함)",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "905-0058-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        },
+        {
+          "label": "준비기간",
+          "value": "60일 (휴일미포함)"
+        }
+      ],
+      "description": [
+        "*본 제품은 오른손 전용 모델이며, 왼손형 제품이 필요하신 경우 HX5-D20-MLT 모델을 선택해 주시기 바랍니다.",
+        "*SMPS(전원공급장치) 및 U2D2 PHB Set(다이나믹셀에 외부 전원을 공급하는 장치)는 기본 구성품에 포함되어 있지 않으며, 사용 환경에 따라 별도 구매가 필요할 수 있습니다."
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_217e40cb_hx5-d20-mrt_kr.jpg"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://docs.robotis.com/docs/systems/hx5_d20/introduction/"
+        },
+        {
+          "title": "셋업 가이드",
+          "url": "https://docs.robotis.com/docs/systems/hx5_d20/quick_start_guide/setup_guide"
+        },
+        {
+          "title": "Github 로스패키지",
+          "url": "https://github.com/ROBOTIS-GIT/robotis_hand"
+        },
+        {
+          "title": "도면 정보",
+          "url": "https://www.robotis.com/service/downloadpage.php?ca_id=70n0"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=905-0058-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "902-0216-000",
+      "name": "XM335-T323-T",
+      "summary": "11.1V / 1.03Nm / 53rpm / Coreless / RC Protocol / TTL",
+      "price": 198000,
+      "priceLabel": "",
+      "imageUrl": "/media/f87c6ed9d9f6f3e621.png",
+      "gallery": [
+        "/media/f87c6ed9d9f6f3e621.png",
+        "https://www.robotis.com/data/item/902-0216-000/tn_XM335_02.png",
+        "https://www.robotis.com/data/item/902-0216-000/PerformanceComparison_2602.png",
+        "https://www.robotis.com/data/item/902-0216-000/DXL_dimension01_XM335_500.jpg",
+        "https://www.robotis.com/data/item/902-0216-000/ModelNumbering_XM335.png"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/902-0216-000/tn_XM335_01.png",
+      "categoryIds": [
+        "2020"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "X",
+      "communication": "TTL",
+      "torqueNm": 1.03,
+      "voltageV": 11.1,
+      "speedRpm": 53,
+      "leadTime": "60일 (휴일미포함)",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0216-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        },
+        {
+          "label": "준비기간",
+          "value": "60일 (휴일미포함)"
+        }
+      ],
+      "description": [
+        "또한 전류제어, 전류기반 위치제어를 포함한 총 6개의 제어 모드 및 RC 프로토콜을 지원하기 때문에 다양한 분야에서 효율적인 사용이 가능합니다.",
+        "1. 다양한 제어 모드 지원",
+        "전류 제어, 속도 제어, 위치 제어, 확장 위치 제어, 전류 기반 위치 제어, PWM제어",
+        "2. 프로파일 컨트롤 가능",
+        "3. 사용 전압 범위 : 6.5~12.0V (권장 전압 : 11.1V)",
+        "4. 금속 기어 적용으로 내구성 강화",
+        "5. RC 프로토콜 가능",
+        "6. 낮은 소모 전류 구현으로 사용 시간 증대",
+        "HORN",
+        "XM335 혼",
+        "도면 다운로드"
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_4082e0e8_1893207946_31990957_icon_xc330.png",
+        "https://www.robotis.com/data/item/explain/1893207946_2395a228_x335EC99B8ED9895.png",
+        "https://www.robotis.com/data/item/explain/1893207946_9f8595ab_EC82ACEC9AA9EAB080EB8AA5ECA09CED9288_ED959C.png",
+        "https://www.robotis.com/data/item/explain/1893207946_c5c27fb3_xm335_E18492E185A9E186ABE18480E185A7E186AFE18492E185A1E186B8E18487E185A1E186BCE18487E185A5E186B8_E18489E185AEE1848CE185A5E186BCE18487E185A9E186AB.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_2c57e684_xm335_E18491E185B3E18485E185A6E1848BE185B5E186B7E18480E185A7E186AFE18492E185A1E186B8E18487E185A1E186BCE18487E185A5E186B8_E18489E185AEE1848CE185A5E186BCE18487E185A9E186AB.jpg"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/x/xm335-t323/"
+        },
+        {
+          "title": "도면 자료실",
+          "url": "https://emanual.robotis.com/docs/en/dxl/x/xm335-t323/#drawings"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0216-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "905-0054-000",
+      "name": "AI Worker FFW-SG2",
+      "summary": "Physical AI를 위한 휴머노이드 로봇 플랫폼",
+      "price": 79200000,
+      "priceLabel": "",
+      "imageUrl": "/media/4d96e6c2296c911297.png",
+      "gallery": [
+        "/media/4d96e6c2296c911297.png",
+        "https://www.robotis.com/data/item/1758876704/tn_AW_SG2_2.png",
+        "https://www.robotis.com/data/item/1758876704/tn_AW_SG2_3.png"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/1758876704/tn_AW_SG2.png",
+      "categoryIds": [
+        "408010"
+      ],
+      "categoryName": "전문가용로봇",
+      "series": "",
+      "communication": "",
+      "torqueNm": null,
+      "voltageV": null,
+      "speedRpm": null,
+      "leadTime": "",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "905-0054-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        }
+      ],
+      "description": [],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_3c5b85af_20250925_aiworker_sg2_kr01.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_671803e8_20250925_aiworker_sg2_kr02_260518EC8898ECA095.jpg"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://docs.robotis.com/docs/systems/aiworker/introduction/"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=905-0054-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "905-0047-000",
+      "name": "OMX-AI",
+      "summary": "AI, 로보틱스 연구의 시작을 위한 최적의 로봇 플랫폼",
+      "price": 390500,
+      "priceLabel": "",
+      "imageUrl": "/media/418cec828b4e89e3d5.png",
+      "gallery": [
+        "/media/418cec828b4e89e3d5.png"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/905-0047-000/tn_OMX.png",
+      "categoryIds": [
+        "4060"
+      ],
+      "categoryName": "전문가용로봇",
+      "series": "",
+      "communication": "",
+      "torqueNm": null,
+      "voltageV": null,
+      "speedRpm": null,
+      "leadTime": "30일 (휴일미포함)",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "905-0047-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        },
+        {
+          "label": "준비기간",
+          "value": "30일 (휴일미포함)"
+        }
+      ],
+      "description": [
+        "2026년 5월부터 OMX-AI의 안정적인 부품 공급과 제품 성능 유지를을 위하여",
+        "Link-U와 DC Converter 제품이 변경되었음을 안내드립니다."
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_041090d3_EBB680ED9288EBB380EAB2BD_omx_kr.png",
+        "https://www.robotis.com/data/item/explain/1893207946_42db41c6_omx_kr_01.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_b02bd761_omx_kr_02_202511EBB680ED9288EBB380EAB2BD.jpg"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://docs.robotis.com/docs/systems/omx/introduction/"
+        },
+        {
+          "title": "조립 가이드",
+          "url": "https://docs.robotis.com/docs/systems/omx/quick_start_guide/assembly_guide"
+        },
+        {
+          "title": "도면 정보(PDF, STEP)",
+          "url": "https://www.robotis.com/service/downloadpage.php?ca_id=70m0"
+        },
+        {
+          "title": "도면 정보(STL)",
+          "url": "https://cad.onshape.com/documents?nodeId=3&resourceType=filter&q=_all:ROBOTIS%20OMX-AI%20"
+        },
+        {
+          "title": "URDF on Github",
+          "url": "https://github.com/ROBOTIS-GIT/open_manipulator/tree/main/open_manipulator_description/urdf"
+        },
+        {
+          "title": "카메라 정보",
+          "url": "https://www.amazon.com/dp/B0CLRJZG8D/ref=pe_386300_440135490_TE_simp_item_image"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=905-0047-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "902-0209-000",
+      "name": "YM080-230-A099-RH",
+      "summary": "24V / 26Nm / 20.2rpm / BLDC / Cycloid / RS-485 / Multi-turn encoder",
+      "price": 3157000,
+      "priceLabel": "",
+      "imageUrl": "/media/398c8c5a2dbb779ca1.png",
+      "gallery": [
+        "/media/398c8c5a2dbb779ca1.png",
+        "https://www.robotis.com/data/item/902-0209-000/YM080230A099RH_bottom.png",
+        "https://www.robotis.com/data/item/902-0209-000/ModelNumbering_YM080230A099RH.png",
+        "https://www.robotis.com/data/item/902-0209-000/DXLY_dimensionYM080230A051RH.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/902-0209-000/YM080230A099RH.png",
+      "categoryIds": [
+        "2050",
+        "205010"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "Y",
+      "communication": "RS-485",
+      "torqueNm": 26,
+      "voltageV": 24,
+      "speedRpm": 20.2,
+      "leadTime": "",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0209-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        }
+      ],
+      "description": [
+        "본 제품인 YM080-230-A099-RH은 DYNAMIXEL DRIVE (DYD) DYD-17H-099 모델의 사이클로이드 감속기가 내장된 일체형 로봇 액츄에이터입니다.",
+        "제품을 구매한 후에는 DYNAMIXEL DRIVE (DYD)를 변경할 수 없습니다.",
+        "중공축 형태의 고성능 프레임리스 모터",
+        "전류 감지를 기반으로 한 토크 제어",
+        "위치 및 속도 제어의 신뢰성 및 정확성을 높이기 위한 PID 제어",
+        "전원이 차단된 후에도 위치값을 저장할 수 있는 멀티턴 앱솔루트 엔코더 (백업 배터리)",
+        "메탈 하우징을 사용하여 높은 내구성을 갖춤",
+        "모듈화된 구성으로 다양한 자유도의 애플리케이션 제작에 용이",
+        "[주의!] 재질 특성상 사용 환경에 따라 녹이 발생할 수 있습니다.",
+        "이에 따른 수리진행은 비용이 발생할 수 있으니 녹 발생을 방지하기 위해 아래 사용 환경을 참고해 주세요.",
+        "- 사용 환경의 습도를 낮추고, 통풍이 잘 되도록 해 습기를 제거해 주세요.",
+        "- 정기적으로 염분을 제거하고 방청 처리를 해주세요.",
+        "다이나믹셀 X 시리즈와 전압 범위가 다르므로 주의하시기 바랍니다. 사용 전압은 24V입니다.",
+        "고용량 모델은 사용 갯수에 따라 별도의 전원단자를 통해 전원공급해주는 것을 권장합니다.",
+        "장시간 사용 시 발열에 주의하시기 바랍니다.",
+        "본 제품은 싸이클로이드 감속기와 모터가 일체형으로 구성된 제품으로 임의로 제품을 분해하지 마시기 바랍니다.",
+        "도면에 표기된 탭 깊이를 고려하여 볼트의 길이에 맞는 프레임을 사용하시기 바랍니다.",
+        "제품 구매 후 멀티턴 백업 배터리를 연결한 후에 사용해야 합니다.",
+        "사용 목적에 따라 감속기, 리니어 및 서보 실린더 등 다양한 제품과 결합할 때는 도면을 참고하시기 바랍니다.",
+        "그 외 주의사항은 e-메뉴얼을 참고 바랍니다."
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_7f243969_icon_dxl-y.png",
+        "https://www.robotis.com/data/item/sharedfile/240320191751_6VMkjrZK_ebfb7807e29188157ca8e27f8fad2d95e462ad9f.png",
+        "https://www.robotis.com/data/item/explain/",
+        "https://www.robotis.com/data/item/explain/1893207946_f3e322cc_nx13_a01_bat_change_02.2182.png",
+        "https://www.robotis.com/data/item/explain/1893207946_b445f363_ym080-230-a000-rh.png",
+        "https://www.robotis.com/data/item/explain/1893207946_d81d782b_dy-04.jpg"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym080-230-a099-rh/"
+        },
+        {
+          "title": "도면 자료실",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym080-230-a099-rh/#%EB%8F%84%EB%A9%B4"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0209-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 4
+    },
+    {
+      "id": "902-0159-000",
+      "name": "XW540-T260-R",
+      "summary": "12.0V / 9.50Nm / 40rpm / Maxon / IP68 / RS-485",
+      "price": 1197900,
+      "priceLabel": "",
+      "imageUrl": "/media/ac1b724f2e44c39ea4.jpg",
+      "gallery": [
+        "/media/ac1b724f2e44c39ea4.jpg",
+        "https://www.robotis.com/data/item/902-0159-000/1.XW540T140R.jpg",
+        "https://www.robotis.com/data/item/902-0159-000/ModelNumbering_DXLX_en_ver2325BB7LaU6rCA.png",
+        "https://www.robotis.com/data/item/902-0159-000/PerformanceComparison_2325.png",
+        "https://www.robotis.com/data/item/902-0159-000/DXL_dimension10_XW540_500.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/902-0159-000/1641888608_26_thumb_XW540_waterIP68.jpg",
+      "categoryIds": [
+        "2020"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "X",
+      "communication": "RS-485",
+      "torqueNm": 9.5,
+      "voltageV": 12,
+      "speedRpm": 40,
+      "leadTime": "60일 (휴일미포함)",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0159-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        },
+        {
+          "label": "준비기간",
+          "value": "60일 (휴일미포함)"
+        }
+      ],
+      "description": [
+        "다이나믹셀-XW 시리즈는 IP68등급(1m, 24hr)의 방수기능을 가지고 있어 습한환경이나 실외와 같은",
+        "생활방수가 필요한 곳에서 사용이 가능합니다.",
+        "풀 알루미늄 케이스를 적용하여 방열기능이 좋고 가볍고 단단하며 컴팩트한 사이즈를 가지고 있습니다.",
+        "1. 6가지 제어 모드 지원",
+        "토크제어, 속도제어, 위치제어, 확장 위치제어, 전류기반 위치제어, PWM제어",
+        "2. 프로파일 컨트롤 가능",
+        "3. 알루미늄 케이스 적용",
+        "4. 간편하고 단순한 조립구조",
+        "5. 낮은 소모전류 구현으로 사용시간 증대",
+        "6. MX-106 대비 28.4% 부피 감소",
+        "도면 다운로드",
+        "[주의!] 커넥터의 고무마개를 잡아당기지 마세요.",
+        "고무마개는 고무패킹과 연결되어 있으며 변형시 누수가 될 수 있습니다.",
+        "또한 고무마개는 방진 목적이며 방수가 되지 않습니다. 물속에서 사용시 방수전용 케이블을 연결한 상태로 사용해주세요.",
+        "다이나믹셀-XW 시리즈에는 기존과 다른 방수케이블을 사용합니다.",
+        "한쪽은 방수커넥터이며 다른한쪽은 JST 커넥터입니다.",
+        "연장케이블은 양쪽 모두 방수커넥터 입니다.",
+        "OpenCR 제어기에는 JST 커넥터가 있어 바로 연결이 가능하지만 OpenCM9.04 + OpenCM 485 확장보드에는 Molex 커넥터만 있기때문에 U2D2 PHB를 활용하여 변환케이블을 사용하여야 합니다."
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_e3736cd3_main_banner_xw540_kr_crop.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_b0f26f82_icon_xw.png",
+        "https://www.robotis.com/data/item/sharedfile/200629170750_p4sjnZ07_b338c994eb81313528f482d62e886da685805b8b.jpg",
+        "https://www.robotis.com/data/item/sharedfile/200605165048_5Trlc0nW_12e0dbab3e85490abccbfd01c482f3a39508afed.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_bf532799_xw540.png",
+        "https://www.robotis.com/data/item/sharedfile/200605165120_phobqWrB_4d3563e35ac071b7730791ce1526018bee4caa24.jpg",
+        "https://www.robotis.com/data/item/sharedfile/200605173202_LFJszgIl_cd2281b77311d2b7f178a6948a3ccefdde87ed0b.jpg"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/x/xw540-t260/"
+        },
+        {
+          "title": "도면자료실",
+          "url": "http://www.robotis.com/service/downloadpage.php?ca_id=7010"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "부품 호환 가이드",
+          "url": "http://www.robotis.com/service/compatibility_table.php?cate=dx"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        },
+        {
+          "title": "[동영상] 퀵 스타트 가이드",
+          "url": "https://youtu.be/oGmAhwnmaWc"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0159-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 5
+    },
+    {
+      "id": "902-0173-000",
+      "name": "XC330-M288-T",
+      "summary": "5.0V / 0.930Nm / 81rpm / Coreless / RC Protocol / TTL",
+      "price": 96800,
+      "priceLabel": "",
+      "imageUrl": "/media/d641378a782c0671a3.png",
+      "gallery": [
+        "/media/d641378a782c0671a3.png",
+        "https://www.robotis.com/data/item/902-0173-000/7.XL330M288T.jpg",
+        "https://www.robotis.com/data/item/902-0173-000/ModelNumbering_DXLX_en_ver2325BB7LaU6rCA.png",
+        "https://www.robotis.com/data/item/902-0173-000/PerformanceComparison_2325.png",
+        "https://www.robotis.com/data/item/902-0173-000/DXL_dimension01_XC330_500.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/902-0173-000/XL330_500x500.png",
+      "categoryIds": [
+        "2020"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "X",
+      "communication": "TTL",
+      "torqueNm": 0.93,
+      "voltageV": 5,
+      "speedRpm": 81,
+      "leadTime": "40일 (휴일미포함)",
+      "manufacturer": "",
+      "countryOfOrigin": "",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0173-000"
+        },
+        {
+          "label": "준비기간",
+          "value": "40일 (휴일미포함)"
+        }
+      ],
+      "description": [
+        "기존 XL320 및 Entry Level 다이나믹셀들과 비교 시 XC330 모델은 로보티즈 제품 중 소형·경량화 된 다이나믹셀 입니다.",
+        "또한 전류제어, 전류기반 위치제어를 포함한 총 6개의 제어 모드 및 RC 프로토콜을 지원하기 때문에 다양한 분야에서 효율적인 사용이 가능합니다.",
+        "1. 다양한 제어 모드 지원",
+        "전류 제어, 속도 제어, 위치 제어, 확장 위치 제어, 전류 기반 위치 제어, PWM제어",
+        "2. 프로파일 컨트롤 가능",
+        "3. 사용전압 3.7V ~ 6V",
+        "4. 금속 기어 적용으로 내구성 강화",
+        "5. RC 프로토콜 가능",
+        "6. 낮은 소모 전류 구현으로 사용 시간 증대",
+        "힌지프레임 체결용 아이들러 세트는 포함되어 있지 않습니다.",
+        "도면 다운로드"
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_31990957_icon_xc330.png",
+        "https://www.robotis.com/data/item/explain/1893207946_92ef7942_xl330.png",
+        "https://www.robotis.com/data/item/explain/1893207946_38f9471f_EC97B0EAB2B0EB8F84.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_e2e076dc_ED98BC-EAB2B0ED95A9-EC9888EC8B9C.png",
+        "https://www.robotis.com/data/item/explain/1893207946_96528a41_xc330.png"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/x/xc330-m288/"
+        },
+        {
+          "title": "도면자료실",
+          "url": "https://www.robotis.com/service/downloadpage.php?ca_id=70"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "부품 호환 가이드",
+          "url": "https://www.robotis.com/service/compatibility_table.php?cate=dx"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "https://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        },
+        {
+          "title": "[동영상] 퀵 스타트 가이드",
+          "url": "https://youtu.be/oGmAhwnmaWc"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0173-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 6
+    },
+    {
+      "id": "902-0171-000",
+      "name": "XC330-T288-T",
+      "summary": "11.1V / 0.92Nm / 65rpm / Coreless / RC Protocol / TTL",
+      "price": 96800,
+      "priceLabel": "",
+      "imageUrl": "/media/36099b0a19b2c73397.png",
+      "gallery": [
+        "/media/36099b0a19b2c73397.png",
+        "https://www.robotis.com/data/item/902-0171-000/7.XL330M288T.jpg",
+        "https://www.robotis.com/data/item/902-0171-000/ModelNumbering_DXLX_en_ver2325BB7LaU6rCA.png",
+        "https://www.robotis.com/data/item/902-0171-000/PerformanceComparison_2325.png",
+        "https://www.robotis.com/data/item/902-0171-000/DXL_dimension01_XC330_500.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/902-0171-000/XL330_500x500.png",
+      "categoryIds": [
+        "2020"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "X",
+      "communication": "TTL",
+      "torqueNm": 0.92,
+      "voltageV": 11.1,
+      "speedRpm": 65,
+      "leadTime": "40일 (휴일미포함)",
+      "manufacturer": "",
+      "countryOfOrigin": "",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0171-000"
+        },
+        {
+          "label": "준비기간",
+          "value": "40일 (휴일미포함)"
+        }
+      ],
+      "description": [
+        "기존 XL320 및 Entry Level 다이나믹셀들과 비교 시 XC330 모델은 로보티즈 제품 중 소형·경량화 된 다이나믹셀 입니다.",
+        "또한 전류제어, 전류기반 위치제어를 포함한 총 6개의 제어 모드 및 RC 프로토콜을 지원하기 때문에 다양한 분야에서 효율적인 사용이 가능합니다.",
+        "1. 다양한 제어 모드 지원",
+        "전류 제어, 속도 제어, 위치 제어, 확장 위치 제어, 전류 기반 위치 제어, PWM제어",
+        "2. 프로파일 컨트롤 가능",
+        "3. 사용전압 6.5V ~ 12V",
+        "4. 금속 기어 적용으로 내구성 강화",
+        "5. RC 프로토콜 가능",
+        "6. 낮은 소모 전류 구현으로 사용 시간 증대",
+        "힌지프레임 체결용 아이들러 세트는 포함되어 있지 않습니다.",
+        "도면 다운로드"
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_7bfec4d1_icon_xc330.png",
+        "https://www.robotis.com/data/item/explain/1893207946_f26d8d69_xl330.png",
+        "https://www.robotis.com/data/item/explain/1893207946_9b78f0a8_EC97B0EAB2B0EB8F84.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_79e62a88_ED98BC-EAB2B0ED95A9-EC9888EC8B9C.png",
+        "https://www.robotis.com/data/item/explain/1893207946_f49a14ff_xc330.png"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/x/xc330-t288/"
+        },
+        {
+          "title": "도면자료실",
+          "url": "https://www.robotis.com/service/downloadpage.php?ca_id=70"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "부품 호환 가이드",
+          "url": "https://www.robotis.com/service/compatibility_table.php?cate=dx"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "https://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        },
+        {
+          "title": "[동영상] 퀵 스타트 가이드",
+          "url": "https://youtu.be/oGmAhwnmaWc"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0171-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 7
+    },
+    {
+      "id": "902-0175-000",
+      "name": "XW430-T200-R",
+      "summary": "12.0V / 2.30Nm / 53rpm / Maxon / IP68 / RS-485",
+      "price": 847000,
+      "priceLabel": "",
+      "imageUrl": "/media/d591df5a50f899f43f.jpg",
+      "gallery": [
+        "/media/d591df5a50f899f43f.jpg",
+        "https://www.robotis.com/data/item/902-0175-000/2.XW430T200R.jpg",
+        "https://www.robotis.com/data/item/902-0175-000/ModelNumbering_DXLX_en_ver2325BB7LaU6rCA.png",
+        "https://www.robotis.com/data/item/902-0175-000/PerformanceComparison_2325.png",
+        "https://www.robotis.com/data/item/902-0175-000/DXL_dimension07_XW430_500.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/902-0175-000/1641888583_85_thumb_XW430_waterIP68.jpg",
+      "categoryIds": [
+        "2020"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "X",
+      "communication": "RS-485",
+      "torqueNm": 2.3,
+      "voltageV": 12,
+      "speedRpm": 53,
+      "leadTime": "",
+      "manufacturer": "",
+      "countryOfOrigin": "",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0175-000"
+        }
+      ],
+      "description": [
+        "다이나믹셀-XW 시리즈는 IP68등급(1m, 24hr)의 방수기능을 가지고 있어 습한환경이나 실외와 같은",
+        "생활방수가 필요한 곳에서 사용이 가능합니다.",
+        "풀 알루미늄 케이스를 적용하여 방열기능이 좋고 가볍고 단단하며 컴팩트한 사이즈를 가지고 있습니다.",
+        "1. 6가지 제어 모드 지원",
+        "토크제어, 속도제어, 위치제어, 확장 위치제어, 전류기반 위치제어, PWM제어",
+        "2. 프로파일 컨트롤 가능",
+        "3. 알루미늄 케이스 적용",
+        "4. 간편하고 단순한 조립구조",
+        "5. 낮은 소모전류 구현으로 사용시간 증대",
+        "6. MX-28 대비 31% 부피 감소",
+        "도면 다운로드",
+        "[주의!] 커넥터의 고무마개를 잡아당기지 마세요.",
+        "고무마개는 고무패킹과 연결되어 있으며 변형시 누수가 될 수 있습니다.",
+        "또한 고무마개는 방진 목적이며 방수가 되지 않습니다. 물속에서 사용시 방수전용 케이블을 연결한 상태로 사용해주세요.",
+        "다이나믹셀-XW 시리즈에는 기존과 다른 방수케이블을 사용합니다.",
+        "한쪽은 방수커넥터이며 다른한쪽은 JST 커넥터입니다.",
+        "연장케이블은 양쪽 모두 방수커넥터 입니다.",
+        "OpenCR 제어기에는 JST 커넥터가 있어 바로 연결이 가능하지만 OpenCM9.04 + OpenCM 485 확장보드에는 Molex 커넥터만 있기때문에 U2D2 PHB를 활용하여 변환케이블을 사용하여야 합니다."
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_e8f7a2eb_main_banner_xw540_kr_crop.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_88ff63e2_icon_xw.png",
+        "https://www.robotis.com/data/item/explain/1893207946_9be1988a_EBB0A9EC8898EB93B1EAB889_xw430_kr.jpg",
+        "https://www.robotis.com/data/item/sharedfile/200605165048_5Trlc0nW_12e0dbab3e85490abccbfd01c482f3a39508afed.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_ef5338f6_xw430.png",
+        "https://www.robotis.com/data/item/sharedfile/200605165120_phobqWrB_4d3563e35ac071b7730791ce1526018bee4caa24.jpg",
+        "https://www.robotis.com/data/item/sharedfile/200605173202_LFJszgIl_cd2281b77311d2b7f178a6948a3ccefdde87ed0b.jpg"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/x/xw430-t200/"
+        },
+        {
+          "title": "도면자료실",
+          "url": "http://www.robotis.com/service/downloadpage.php?ca_id=7010"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "부품 호환 가이드",
+          "url": "http://www.robotis.com/service/compatibility_table.php?cate=dx"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        },
+        {
+          "title": "[동영상] 퀵 스타트 가이드",
+          "url": "https://youtu.be/oGmAhwnmaWc"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0175-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 8
+    },
+    {
+      "id": "921-0158-000",
+      "name": "알쥐",
+      "summary": "코딩 반려 로봇 알쥐",
+      "price": 187000,
+      "priceLabel": "",
+      "imageUrl": "/media/981d8889d77dfdbbba.jpg",
+      "gallery": [
+        "/media/981d8889d77dfdbbba.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/921-0158-000_tn_7JWM7KWQ2_500.jpg",
+      "categoryIds": [
+        "1020"
+      ],
+      "categoryName": "스팀컵인증키트",
+      "series": "",
+      "communication": "",
+      "torqueNm": null,
+      "voltageV": null,
+      "speedRpm": null,
+      "leadTime": "1일 (휴일미포함)",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "921-0158-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        },
+        {
+          "label": "준비기간",
+          "value": "1일 (휴일미포함)"
+        }
+      ],
+      "description": [],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_4ba853de_EC958CECA590_ECB694EAB08006_4ECB0A8EC82B0EC9785ED9881EBAA85_EAB1B1ECA095.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_b8e9ca32_EC958CECA590_ECB694EAB08008_EBA19CEBB487ED82A4EC9AB0EB8A94EC9584EC9DB4.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_23cbd5fb_EC958CECA590_ECB694EAB08000_EC9588EB8595.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_ed2939e2_EC958CECA590_ECB9B4EB939CEB89B4EC8AA4_03_780.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_4c058be5_EC958CECA590_ECB9B4EB939CEB89B4EC8AA4_04_780.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_abf67a67_EC958CECA590_ECB9B4EB939CEB89B4EC8AA4_05_780.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_dd72ef61_EC958CECA590_ECB9B4EB939CEB89B4EC8AA4_06_780.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_90752a81_EC958CECA590_ECB694EAB08001_EC9B80ECA781EC9DB4EB8A94EC958CECA590.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_83bbe4a3_EC958CECA590_ECB694EAB08003_EAB3B5EB8680EC9DB4EBAAA8EB939C.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_b6bc440b_EC958CECA590_ECB694EAB08002_EC96B8ED948CEB9FACEAB7B8EB939CECBD94EB94A9.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_c112099f_EC958CECA590_ECB694EAB08004_ECA1B0ECA285EBAAA8EB939C.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_e3001044_EC958CECA590_ECB694EAB08009_EC8AA4ED8C80ECBBB5EC95B1.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_564d6e9a_EC958CECA590_ECB694EAB08010_EC958CEBB894EBA19D.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_eab3e2df_EC958CECA590_ECB694EAB08005_ED9CB4EBA8B8EB85B8EC9DB4EB939CEBA19C_EB939CEB9E98EAB3A4EC82ADECA09C.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_52388a4f_EC958CECA590_ECB694EAB08004_EAB5ACEC84B1ED9288.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_505c9271_2850_EC958CECA590_EC9DB4ECBBA4EBA8B8EC8AA4_EC9DB8ECA69DEC849C.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_271d4c58_EC958CECA590_ECB694EAB08005_ED9B84EAB8B0EBAAA8EC9D8C.jpg"
+      ],
+      "resources": [],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=921-0158-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 9
+    },
+    {
+      "id": "921-0162-000",
+      "name": "올로 AI 1단계",
+      "summary": "",
+      "price": 132000,
+      "priceLabel": "",
+      "imageUrl": "/media/3dbeb3540ee6f0e9e9.jpg",
+      "gallery": [
+        "/media/3dbeb3540ee6f0e9e9.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/921-0162-000/tn_OLLO_AI_level1_500.jpg",
+      "categoryIds": [
+        "1020"
+      ],
+      "categoryName": "스팀컵인증키트",
+      "series": "",
+      "communication": "",
+      "torqueNm": null,
+      "voltageV": null,
+      "speedRpm": null,
+      "leadTime": "1일 (휴일미포함)",
+      "manufacturer": "",
+      "countryOfOrigin": "",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "921-0162-000"
+        },
+        {
+          "label": "준비기간",
+          "value": "1일 (휴일미포함)"
+        }
+      ],
+      "description": [
+        "올로 AI 용 모터 모듈",
+        "제품 메뉴얼- 바로가기",
+        "RB-88 제어기구매-바로가기"
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_ce2a9c49_ollo_ai_1EB8BA8EAB384_EC87BCED9591EBAAB0_01.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_aa2148e8_ollo_ai_1EB8BA8EAB384_EC87BCED9591EBAAB0_02.jpg"
+      ],
+      "resources": [],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=921-0162-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 10
+    },
+    {
+      "id": "901-0153-100",
+      "name": "스팀컵 엔지니어 키트1",
+      "summary": "",
+      "price": 990000,
+      "priceLabel": "",
+      "imageUrl": "/media/a1be780fee4d776e8c.jpg",
+      "gallery": [
+        "/media/a1be780fee4d776e8c.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/901-0153-100/tn_ENG_KIT1.jpg",
+      "categoryIds": [
+        "1020"
+      ],
+      "categoryName": "스팀컵인증키트",
+      "series": "",
+      "communication": "",
+      "torqueNm": null,
+      "voltageV": null,
+      "speedRpm": null,
+      "leadTime": "1일 (휴일미포함)",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "901-0153-100"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        },
+        {
+          "label": "준비기간",
+          "value": "1일 (휴일미포함)"
+        }
+      ],
+      "description": [
+        "※ 다른 제품과 별도로 주문하시기 바랍니다.",
+        "※ 본 상품은 조립이 안된 제품입니다."
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_000b19ef_eng_kit1_kr_ver2204.jpg"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "http://emanual.robotis.com/docs/kr/edu/engineer/kit1/"
+        },
+        {
+          "title": "교육자료 신청하기",
+          "url": "http://emanual.robotis.com/docs/kr/edu/engineer/kit1/#%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C-%EC%8B%A0%EC%B2%AD%ED%95%98%EA%B8%B0"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=901-0153-100",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 11
+    },
+    {
+      "id": "901-0157-100",
+      "name": "스팀컵 엔지니어 키트2",
+      "summary": "",
+      "price": 770000,
+      "priceLabel": "",
+      "imageUrl": "/media/238822ab53f9b05277.jpg",
+      "gallery": [
+        "/media/238822ab53f9b05277.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/901-0157-100/tn_ENG_KIT2.jpg",
+      "categoryIds": [
+        "1020"
+      ],
+      "categoryName": "스팀컵인증키트",
+      "series": "",
+      "communication": "",
+      "torqueNm": null,
+      "voltageV": null,
+      "speedRpm": null,
+      "leadTime": "",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "901-0157-100"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        }
+      ],
+      "description": [],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_e96e553b_eng_kit2_kr_ver2204.jpg"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "http://emanual.robotis.com/docs/kr/edu/engineer/kit2_introduction/"
+        },
+        {
+          "title": "교육자료 신청하기",
+          "url": "http://emanual.robotis.com/docs/kr/edu/engineer/kit2_advanced_course/#%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=901-0157-100",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 12
+    },
+    {
+      "id": "902-0010-001",
+      "name": "AX-12A 벌크팩 (6개)",
+      "summary": "12.0V / 1.50Nm / 59rpm / Cored / TTL",
+      "price": 266200,
+      "priceLabel": "",
+      "imageUrl": "/media/dd2b472b04c39e3897.jpg",
+      "gallery": [
+        "/media/dd2b472b04c39e3897.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/902-0010-001/740_view_U2I0VGHLDAW3.jpg",
+      "categoryIds": [
+        "2010"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "",
+      "communication": "TTL",
+      "torqueNm": 1.5,
+      "voltageV": 12,
+      "speedRpm": 59,
+      "leadTime": "40일 (휴일미포함)",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0010-001"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        },
+        {
+          "label": "준비기간",
+          "value": "40일 (휴일미포함)"
+        }
+      ],
+      "description": [
+        "다이나믹셀 AX-시리즈는 로보티즈 STEM, 프리미엄, GP에 사용되는 보급형 모델로써 휴머노이드, 4족, 6족로봇 등 다양한 형태의 로봇을 손쉽게 제작할 수 있습니다.",
+        "바퀴로 사용도 가능하여 단일 모듈만으로 휠타입과 관절타입이 혼용된 로봇을 만들 수 있습니다.",
+        "다양한 종류의 고강도 엔지니어링 플라스틱 옵션프레임을 이용하거나 3D프린터를 이용하여 프레임을 직접 제작하시면 어떠한 형태의 로봇도 저렴한 비용으로 제작할 수 있습니다.",
+        "부속 악세서리를 제외한 다이나믹셀 벌크 6개 패키지 제품으로, 저렴한 가격에 다이나믹셀 구매가 가능합니다.",
+        "케이블, 스크류 등 악세서리 미포함",
+        "도면 다운로드",
+        "AX-시리즈 전용 프레임만 사용할 수 있으며, MX-시리즈, X-시리즈용 옵션프레임은 사용할 수 없습니다."
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_e75a1ef1_icon_ax.png",
+        "https://www.robotis.com/data/item/explain/1893207946_579ac75a_ax12a2Cax18a2Cax12w2Cmx12w.png"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "http://emanual.robotis.com/docs/kr/dxl/ax/ax-12a/"
+        },
+        {
+          "title": "도면 자료실",
+          "url": "http://www.robotis.com/service/downloadpage.php?ca_id=7010"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "부품 호환 가이드",
+          "url": "http://www.robotis.com/service/compatibility_table.php?cate=d"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        },
+        {
+          "title": "[동영상] 퀵 스타트 가이드",
+          "url": "https://youtu.be/oGmAhwnmaWc"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0010-001",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 13
+    },
+    {
+      "id": "902-0100-000",
+      "name": "MX-28AT 벌크팩 (6개)",
+      "summary": "12.0V / 2.50Nm / 55rpm / Coreless(Maxon) / TTL",
+      "price": 1476200,
+      "priceLabel": "",
+      "imageUrl": "/media/23dee60f9553fcc463.jpg",
+      "gallery": [
+        "/media/23dee60f9553fcc463.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/2389_view_2YOIW1UEG6TM.jpg",
+      "categoryIds": [
+        "2010"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "",
+      "communication": "TTL",
+      "torqueNm": 2.5,
+      "voltageV": 12,
+      "speedRpm": 55,
+      "leadTime": "",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0100-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        }
+      ],
+      "description": [
+        "다이나믹셀 MX-시리즈는 정밀제어와 PID 제어, 360도 위치 제어, 고속 통신 기능을 갖춘 모델입니다.",
+        "비접촉식 앱솔루트 엔코더를 적용하여 내구성, 정밀도, 제어 범위 증가",
+        "데드 구간없이 360° 전 영역의 위치제어 가능",
+        "360°를 0.088° 단위로 4096단계에 걸쳐 제어 가능",
+        "Endless Turn Mode에서 속도 제어 가능",
+        "PID 제어를 통해 위치제어 신뢰성 및 정확성 증가",
+        "4.5Mbps의 고속 통신을 지원",
+        "부속 악세서리를 제외한 다이나믹셀 벌크 6개 패키지 제품으로, 저렴한 가격에 다이나믹셀 구매가 가능합니다.",
+        "혼, 케이블, 스크류 등 악세서리 미포함",
+        "도면 다운로드"
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_da96e18d_icon_mx-t2.0.png",
+        "https://www.robotis.com/data/item/sharedfile/180511164901_hXgr31OY_12e0dbde961e67dc23564f8e277472c96bf69e69.jpg",
+        "https://www.robotis.com/data/item/sharedfile/180511164933_y1FuXWmj_4f1aca0d343d322c2cb759d7e89389b2be3ee146.jpg",
+        "https://www.robotis.com/data/item/sharedfile/180511164950_8WqyD4K6_cbeebb72c7f4ac779dbb9a225196d2c9533aabe9.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_85d31627_mx-28atr.png"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/mx/mx-28/"
+        },
+        {
+          "title": "도면 자료실",
+          "url": "http://www.robotis.com/service/downloadpage.php?ca_id=7010"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "부품 호환 가이드",
+          "url": "http://www.robotis.com/service/compatibility_table.php?cate=d"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        },
+        {
+          "title": "[동영상] 퀵 스타트 가이드",
+          "url": "https://youtu.be/oGmAhwnmaWc"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0100-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 14
+    },
+    {
+      "id": "902-0099-000",
+      "name": "MX-28AR 벌크팩 (6개)",
+      "summary": "12.0V / 2.50Nm / 55rpm / Coreless(Maxon) / RS-485",
+      "price": 1536700,
+      "priceLabel": "",
+      "imageUrl": "/media/af497d17f91cb5ab4b.jpg",
+      "gallery": [
+        "/media/af497d17f91cb5ab4b.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/2390_view_BC8P10A4YYMV.jpg",
+      "categoryIds": [
+        "2010"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "",
+      "communication": "RS-485",
+      "torqueNm": 2.5,
+      "voltageV": 12,
+      "speedRpm": 55,
+      "leadTime": "20일 (휴일미포함)",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0099-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        },
+        {
+          "label": "준비기간",
+          "value": "20일 (휴일미포함)"
+        }
+      ],
+      "description": [
+        "다이나믹셀 MX-시리즈는 정밀제어와 PID 제어, 360도 위치 제어, 고속 통신 기능을 갖춘 모델입니다.",
+        "비접촉식 앱솔루트 엔코더를 적용하여 내구성, 정밀도, 제어 범위 증가",
+        "데드 구간없이 360° 전 영역의 위치제어 가능",
+        "360°를 0.088° 단위로 4096단계에 걸쳐 제어 가능",
+        "Endless Turn Mode에서 속도 제어 가능",
+        "PID 제어를 통해 위치제어 신뢰성 및 정확성 증가",
+        "4.5Mbps의 고속 통신을 지원",
+        "부속 악세서리를 제외한 다이나믹셀 벌크 6개 패키지 제품으로, 저렴한 가격에 다이나믹셀 구매가 가능합니다.",
+        "혼, 케이블, 스크류 등 악세서리 미포함",
+        "도면 다운로드"
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_176823bd_icon_mx-r2.0.png",
+        "https://www.robotis.com/data/item/sharedfile/180511164901_hXgr31OY_12e0dbde961e67dc23564f8e277472c96bf69e69.jpg",
+        "https://www.robotis.com/data/item/sharedfile/180511164933_y1FuXWmj_4f1aca0d343d322c2cb759d7e89389b2be3ee146.jpg",
+        "https://www.robotis.com/data/item/sharedfile/180511164950_8WqyD4K6_cbeebb72c7f4ac779dbb9a225196d2c9533aabe9.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_fc4b3121_mx-28atr.png"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/mx/mx-28/"
+        },
+        {
+          "title": "도면 자료실",
+          "url": "http://www.robotis.com/service/downloadpage.php?ca_id=7010"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "부품 호환 가이드",
+          "url": "http://www.robotis.com/service/compatibility_table.php?cate=d"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        },
+        {
+          "title": "[동영상] 퀵 스타트 가이드",
+          "url": "https://youtu.be/oGmAhwnmaWc"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0099-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 15
+    },
+    {
+      "id": "902-0101-000",
+      "name": "MX-64AR 벌크팩 (6개)",
+      "summary": "12.0V / 6.00Nm / 63rpm / Coreless(Maxon) / RS-485",
+      "price": 1936000,
+      "priceLabel": "",
+      "imageUrl": "/media/9fc5878ea8772f858d.jpg",
+      "gallery": [
+        "/media/9fc5878ea8772f858d.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/2392_view_W6Y0LC29B6ZO.jpg",
+      "categoryIds": [
+        "2010"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "",
+      "communication": "RS-485",
+      "torqueNm": 6,
+      "voltageV": 12,
+      "speedRpm": 63,
+      "leadTime": "",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0101-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        }
+      ],
+      "description": [
+        "다이나믹셀 MX-시리즈는 정밀제어와 PID 제어, 360도 위치 제어, 고속 통신 기능을 갖춘 모델입니다.",
+        "비접촉식 앱솔루트 엔코더를 적용하여 내구성, 정밀도, 제어 범위 증가",
+        "데드 구간없이 360° 전 영역의 위치제어 가능",
+        "360°를 0.088° 단위로 4096단계에 걸쳐 제어 가능",
+        "Endless Turn Mode에서 속도 제어 가능",
+        "PID 제어를 통해 위치제어 신뢰성 및 정확성 증가",
+        "4.5Mbps의 고속 통신을 지원",
+        "전류 센싱을 통한 토크 제어",
+        "부속 악세서리를 제외한 다이나믹셀 벌크 6개 패키지 제품으로, 저렴한 가격에 다이나믹셀 구매가 가능합니다.",
+        "혼, 케이블, 스크류 등 악세서리 미포함",
+        "도면 다운로드",
+        "RX-64용 혼(HN05-N101 Set / T101 Set)은 장착할 수 없습니다."
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_3da3e97e_icon_mx-r2.0.png",
+        "https://www.robotis.com/data/item/sharedfile/180511165009_eUP9fHnm_98d3fd543fdb2b914bf5af16c7e28703433e1636.jpg",
+        "https://www.robotis.com/data/item/sharedfile/180511165037_N9BbY2Zj_2139d4e577dba16c4deaf7bfb017a7dcd11785c9.jpg",
+        "https://www.robotis.com/data/item/sharedfile/180511165054_4cwZeDm8_eef29dfbe31bfddba335b01da6c70ed481666c96.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_e88ed874_mx-64a.png"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/mx/mx-64/"
+        },
+        {
+          "title": "도면 자료실",
+          "url": "http://www.robotis.com/service/downloadpage.php?ca_id=7010"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "부품 호환 가이드",
+          "url": "http://www.robotis.com/service/compatibility_table.php?cate=d"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        },
+        {
+          "title": "[동영상] 퀵 스타트 가이드",
+          "url": "https://youtu.be/oGmAhwnmaWc"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0101-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 16
+    },
+    {
+      "id": "902-0072-000",
+      "name": "MX-106R 벌크팩 (6개)",
+      "summary": "12.0V / 8.40Nm / 45rpm / Coreless(Maxon) / RS-485",
+      "price": 2795100,
+      "priceLabel": "",
+      "imageUrl": "/media/422c11152661da4db1.JPG",
+      "gallery": [
+        "/media/422c11152661da4db1.JPG"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/874_view_P6AU3SARYAK7.JPG",
+      "categoryIds": [
+        "2010"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "",
+      "communication": "RS-485",
+      "torqueNm": 8.4,
+      "voltageV": 12,
+      "speedRpm": 45,
+      "leadTime": "2026-11-26 배송예정",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0072-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        },
+        {
+          "label": "준비기간",
+          "value": "2026-11-26 배송예정"
+        }
+      ],
+      "description": [
+        "다이나믹셀 MX-시리즈는 정밀제어와 PID 제어, 360도 위치 제어, 고속 통신 기능을 갖춘 모델입니다.",
+        "비접촉식 앱솔루트 엔코더를 적용하여 내구성, 정밀도, 제어 범위 증가",
+        "데드 구간없이 360° 전 영역의 위치제어 가능",
+        "360°를 0.088° 단위로 4096단계에 걸쳐 제어 가능",
+        "Endless Turn Mode에서 속도 제어 가능",
+        "PID 제어를 통해 위치제어 신뢰성 및 정확성 증가",
+        "4.5Mbps의 고속 통신을 지원",
+        "부속 악세서리를 제외한 다이나믹셀 벌크 6개 패키지 제품으로, 저렴한 가격에 다이나믹셀 구매가 가능합니다.",
+        "혼, 케이블, 스크류 등 악세서리 미포함",
+        "도면 다운로드"
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_2d95a194_icon_mx-r2.0.png",
+        "https://www.robotis.com/data/item/explain/1893207946_5c20de58_mx-106.png"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/mx/mx-106/"
+        },
+        {
+          "title": "도면 자료실",
+          "url": "http://www.robotis.com/service/downloadpage.php?ca_id=7010"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "부품 호환 가이드",
+          "url": "http://www.robotis.com/service/compatibility_table.php?cate=d"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        },
+        {
+          "title": "[동영상] 퀵 스타트 가이드",
+          "url": "https://youtu.be/oGmAhwnmaWc"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0072-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 17
+    },
+    {
+      "id": "902-0203-000",
+      "name": "YM080-230-R099-RH",
+      "summary": "24V / 26Nm / 20.2rpm / BLDC / Cycloid / RS-485 / Multi-turn encoder",
+      "price": 2937000,
+      "priceLabel": "",
+      "imageUrl": "/media/73b111f4c587192974.jpg",
+      "gallery": [
+        "/media/73b111f4c587192974.jpg",
+        "https://www.robotis.com/data/item/902-0203-000/YM080230R099RH_500_bottom.jpg",
+        "https://www.robotis.com/data/item/902-0203-000/DXLY_Model_Numbering_06.jpg",
+        "https://www.robotis.com/data/item/902-0203-000/1710932705_71_DXLY_dimensionYM080230R051RH.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/902-0203-000/YM080230R099RH_500.jpg",
+      "categoryIds": [
+        "2050",
+        "205010"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "Y",
+      "communication": "RS-485",
+      "torqueNm": 26,
+      "voltageV": 24,
+      "speedRpm": 20.2,
+      "leadTime": "56일 (휴일미포함)",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0203-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        },
+        {
+          "label": "준비기간",
+          "value": "56일 (휴일미포함)"
+        }
+      ],
+      "description": [
+        "본 제품인 YM080-230-R099-RH은 DYNAMIXEL DRIVE (DYD) DYD-17H-099 모델의 사이클로이드 감속기가 내장된 일체형 로봇 액츄에이터입니다.",
+        "제품을 구매한 후에는 DYNAMIXEL DRIVE (DYD)를 변경할 수 없습니다.",
+        "중공축 형태의 고성능 프레임리스 모터",
+        "전류 감지를 기반으로 한 토크 제어",
+        "위치 및 속도 제어의 신뢰성 및 정확성을 높이기 위한 PID 제어",
+        "전원이 차단된 후에도 위치값을 저장할 수 있는 멀티턴 앱솔루트 엔코더 (백업 배터리)",
+        "메탈 하우징을 사용하여 높은 내구성을 갖춤",
+        "모듈화된 구성으로 다양한 자유도의 애플리케이션 제작에 용이",
+        "[주의!] 재질 특성상 사용 환경에 따라 녹이 발생할 수 있습니다.",
+        "이에 따른 수리진행은 비용이 발생할 수 있으니 녹 발생을 방지하기 위해 아래 사용 환경을 참고해 주세요.",
+        "- 사용 환경의 습도를 낮추고, 통풍이 잘 되도록 해 습기를 제거해 주세요.",
+        "- 정기적으로 염분을 제거하고 방청 처리를 해주세요.",
+        "다이나믹셀 X 시리즈와 전압 범위가 다르므로 주의하시기 바랍니다. 사용 전압은 24V입니다.",
+        "고용량 모델은 사용 갯수에 따라 별도의 전원단자를 통해 전원공급해주는 것을 권장합니다.",
+        "장시간 사용 시 발열에 주의하시기 바랍니다.",
+        "본 제품은 싸이클로이드 감속기와 모터가 일체형으로 구성된 제품으로 임의로 제품을 분해하지 마시기 바랍니다.",
+        "도면에 표기된 탭 깊이를 고려하여 볼트의 길이에 맞는 프레임을 사용하시기 바랍니다.",
+        "제품 구매 후 멀티턴 백업 배터리를 연결한 후에 사용해야 합니다.",
+        "사용 목적에 따라 감속기, 리니어 및 서보 실린더 등 다양한 제품과 결합할 때는 도면을 참고하시기 바랍니다.",
+        "그 외 주의사항은 e-메뉴얼을 참고 바랍니다."
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_f0c25927_icon_dxl-y.png",
+        "https://www.robotis.com/data/item/sharedfile/240320191751_6VMkjrZK_ebfb7807e29188157ca8e27f8fad2d95e462ad9f.png",
+        "https://www.robotis.com/data/item/explain/",
+        "https://www.robotis.com/data/item/explain/1893207946_94aa88bb_nx13_a01_bat_change_02.2182.png",
+        "https://www.robotis.com/data/item/explain/1893207946_433fe39c_080_051.png",
+        "https://www.robotis.com/data/item/explain/1893207946_a3025eaa_dy-04.jpg"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym080-230-r099-rh/"
+        },
+        {
+          "title": "도면 자료실",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym080-230-r099-rh/#%EB%8F%84%EB%A9%B4"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0203-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 18
+    },
+    {
+      "id": "902-0202-000",
+      "name": "YM080-230-R051-RH",
+      "summary": "24V / 15.8Nm / 39.2rpm / BLDC / Cycloid / RS-485 / Multi-turn encoder",
+      "price": 2937000,
+      "priceLabel": "",
+      "imageUrl": "/media/8e76814c9315903014.jpg",
+      "gallery": [
+        "/media/8e76814c9315903014.jpg",
+        "https://www.robotis.com/data/item/902-0202-000/YM080230R051RH_500_bottom.jpg",
+        "https://www.robotis.com/data/item/902-0202-000/DXLY_Model_Numbering_05.jpg",
+        "https://www.robotis.com/data/item/902-0202-000/1710932510_14_DXLY_dimensionYM080230R051RH.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/902-0202-000/YM080230R051RH_500.jpg",
+      "categoryIds": [
+        "2050",
+        "205010"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "Y",
+      "communication": "RS-485",
+      "torqueNm": 15.8,
+      "voltageV": 24,
+      "speedRpm": 39.2,
+      "leadTime": "56일 (휴일미포함)",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0202-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        },
+        {
+          "label": "준비기간",
+          "value": "56일 (휴일미포함)"
+        }
+      ],
+      "description": [
+        "본 제품인 YM080-230-R051-RH은 DYNAMIXEL DRIVE (DYD) DYD-17H-051 모델의 사이클로이드 감속기가 내장된 일체형 로봇 액츄에이터입니다.",
+        "제품을 구매한 후에는 DYNAMIXEL DRIVE (DYD)를 변경할 수 없습니다.",
+        "중공축 형태의 고성능 프레임리스 모터",
+        "전류 감지를 기반으로 한 토크 제어",
+        "위치 및 속도 제어의 신뢰성 및 정확성을 높이기 위한 PID 제어",
+        "전원이 차단된 후에도 위치값을 저장할 수 있는 멀티턴 앱솔루트 엔코더 (백업 배터리)",
+        "메탈 하우징을 사용하여 높은 내구성을 갖춤",
+        "모듈화된 구성으로 다양한 자유도의 애플리케이션 제작에 용이",
+        "[주의!] 재질 특성상 사용 환경에 따라 녹이 발생할 수 있습니다.",
+        "이에 따른 수리진행은 비용이 발생할 수 있으니 녹 발생을 방지하기 위해 아래 사용 환경을 참고해 주세요.",
+        "- 사용 환경의 습도를 낮추고, 통풍이 잘 되도록 해 습기를 제거해 주세요.",
+        "- 정기적으로 염분을 제거하고 방청 처리를 해주세요.",
+        "다이나믹셀 X 시리즈와 전압 범위가 다르므로 주의하시기 바랍니다. 사용 전압은 24V입니다.",
+        "고용량 모델은 사용 갯수에 따라 별도의 전원단자를 통해 전원공급해주는 것을 권장합니다.",
+        "장시간 사용 시 발열에 주의하시기 바랍니다.",
+        "본 제품은 싸이클로이드 감속기와 모터가 일체형으로 구성된 제품으로 임의로 제품을 분해하지 마시기 바랍니다.",
+        "도면에 표기된 탭 깊이를 고려하여 볼트의 길이에 맞는 프레임을 사용하시기 바랍니다.",
+        "제품 구매 후 멀티턴 백업 배터리를 연결한 후에 사용해야 합니다.",
+        "사용 목적에 따라 감속기, 리니어 및 서보 실린더 등 다양한 제품과 결합할 때는 도면을 참고하시기 바랍니다.",
+        "그 외 주의사항은 e-메뉴얼을 참고 바랍니다."
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_cc2ef28c_icon_dxl-y.png",
+        "https://www.robotis.com/data/item/sharedfile/240320191751_6VMkjrZK_ebfb7807e29188157ca8e27f8fad2d95e462ad9f.png",
+        "https://www.robotis.com/data/item/explain/",
+        "https://www.robotis.com/data/item/explain/1893207946_12a9820e_nx13_a01_bat_change_02.2182.png",
+        "https://www.robotis.com/data/item/explain/1893207946_915b3e45_080_051.png",
+        "https://www.robotis.com/data/item/explain/1893207946_c6e44081_dy-04.jpg"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym080-230-r051-rh/"
+        },
+        {
+          "title": "도면 자료실",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym080-230-r051-rh/#%EB%8F%84%EB%A9%B4"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0202-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 19
+    },
+    {
+      "id": "902-0201-000",
+      "name": "YM080-230-M001-RH",
+      "summary": "24V / 0.6Nm/ 2,292rpm / BLDC/ RS-485 / Multi-turn encoder",
+      "price": 1782000,
+      "priceLabel": "",
+      "imageUrl": "/media/7b6be6212b046f4189.jpg",
+      "gallery": [
+        "/media/7b6be6212b046f4189.jpg",
+        "https://www.robotis.com/data/item/902-0201-000/YM080230M001RH_500_bottom.jpg",
+        "https://www.robotis.com/data/item/902-0201-000/DXLY_Model_Numbering_04.jpg",
+        "https://www.robotis.com/data/item/902-0201-000/1710932302_15_DXLY_dimensionYM080230M001RH.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/902-0201-000/YM080230M001RH_500.jpg",
+      "categoryIds": [
+        "2050",
+        "205010"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "Y",
+      "communication": "RS-485",
+      "torqueNm": 0.6,
+      "voltageV": 24,
+      "speedRpm": 2292,
+      "leadTime": "56일 (휴일미포함)",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0201-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        },
+        {
+          "label": "준비기간",
+          "value": "56일 (휴일미포함)"
+        }
+      ],
+      "description": [
+        "본 제품인 YM080-230-M001-RH은 감속기를 포함하지 않은 제품으로, 사용 목적에 따라 감속기, 리니어 및 서보 실린더 등 다양한 제품과 결합하여 사용 가능합니다.",
+        "중공축 형태의 고성능 프레임리스 모터",
+        "전류 감지를 기반으로 한 토크 제어",
+        "위치 및 속도 제어의 신뢰성 및 정확성을 높이기 위한 PID 제어",
+        "전원이 차단된 후에도 위치값을 저장할 수 있는 멀티턴 앱솔루트 엔코더 (백업 배터리)",
+        "메탈 하우징을 사용하여 높은 내구성을 갖춤",
+        "모듈화된 구성으로 다양한 자유도의 애플리케이션 제작에 용이",
+        "상기 이미지는 이해를 돕기 위한 감속기를 포함한 분해도입니다.",
+        "본 제품에는 감속기가 포함되어있지 않습니다.",
+        "도면 다운로드",
+        "[주의!] 재질 특성상 사용 환경에 따라 녹이 발생할 수 있습니다.",
+        "이에 따른 수리진행은 비용이 발생할 수 있으니 녹 발생을 방지하기 위해 아래 사용 환경을 참고해 주세요.",
+        "- 사용 환경의 습도를 낮추고, 통풍이 잘 되도록 해 습기를 제거해 주세요.",
+        "- 정기적으로 염분을 제거하고 방청 처리를 해주세요.",
+        "다이나믹셀 X 시리즈와 전압 범위가 다르므로 주의하시기 바랍니다. 사용 전압은 24V입니다.",
+        "고용량 모델은 사용 갯수에 따라 별도의 전원단자를 통해 전원공급해주는 것을 권장합니다.",
+        "장시간 사용 시 발열에 주의하시기 바랍니다.",
+        "도면에 표기된 탭 깊이를 고려하여 볼트의 길이에 맞는 프레임을 사용하시기 바랍니다.",
+        "제품 구매 후 멀티턴 백업 배터리를 연결한 후에 사용해야 합니다.",
+        "사용 목적에 따라 감속기, 리니어 및 서보 실린더 등 다양한 제품과 결합할 때는 도면을 참고하시기 바랍니다.",
+        "그 외 주의사항은 e-메뉴얼을 참고 바랍니다."
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_5c1d087b_icon_dxl-y.png",
+        "https://www.robotis.com/data/item/sharedfile/240320191751_6VMkjrZK_ebfb7807e29188157ca8e27f8fad2d95e462ad9f.png",
+        "https://www.robotis.com/data/item/explain/1893207946_cae66959_nx13_a01_bat_change_02.2182.png",
+        "https://www.robotis.com/data/item/explain/1893207946_8acbf0f8_080_001.png",
+        "https://www.robotis.com/data/item/explain/1893207946_9ff23d0c_dy-03.jpg"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym080-230-m001-rh/"
+        },
+        {
+          "title": "도면 자료실",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym080-230-m001-rh/#%EB%8F%84%EB%A9%B4"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0201-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 20
+    },
+    {
+      "id": "902-0200-000",
+      "name": "YM070-210-R099-RH",
+      "summary": "24V / 14.6Nm / 20.2rpm / BLDC / Cycloid / RS-485 / Multi-turn encoder",
+      "price": 2629000,
+      "priceLabel": "",
+      "imageUrl": "/media/fcdd5bc6bf11092e6b.jpg",
+      "gallery": [
+        "/media/fcdd5bc6bf11092e6b.jpg",
+        "https://www.robotis.com/data/item/902-0200-000/YM070210R099RH_500_bottom.jpg",
+        "https://www.robotis.com/data/item/902-0200-000/DXLY_Model_Numbering_03.jpg",
+        "https://www.robotis.com/data/item/902-0200-000/1710932085_5_DXLY_dimensionYM070210R051RH.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/902-0200-000/YM070210R099RH_500.jpg",
+      "categoryIds": [
+        "2050",
+        "205010"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "Y",
+      "communication": "RS-485",
+      "torqueNm": 14.6,
+      "voltageV": 24,
+      "speedRpm": 20.2,
+      "leadTime": "56일 (휴일미포함)",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0200-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        },
+        {
+          "label": "준비기간",
+          "value": "56일 (휴일미포함)"
+        }
+      ],
+      "description": [
+        "본 제품인 YM070-210-R099-RH은 DYNAMIXEL DRIVE (DYD) DYD-14H-099 모델의 사이클로이드 감속기가 내장된 일체형 로봇 액츄에이터입니다.",
+        "제품을 구매한 후에는 DYNAMIXEL DRIVE (DYD)를 변경할 수 없습니다.",
+        "중공축 형태의 고성능 프레임리스 모터",
+        "전류 감지를 기반으로 한 토크 제어",
+        "위치 및 속도 제어의 신뢰성 및 정확성을 높이기 위한 PID 제어",
+        "전원이 차단된 후에도 위치값을 저장할 수 있는 멀티턴 앱솔루트 엔코더 (백업 배터리)",
+        "메탈 하우징을 사용하여 높은 내구성을 갖춤",
+        "모듈화된 구성으로 다양한 자유도의 애플리케이션 제작에 용이",
+        "[주의!] 재질 특성상 사용 환경에 따라 녹이 발생할 수 있습니다.",
+        "이에 따른 수리진행은 비용이 발생할 수 있으니 녹 발생을 방지하기 위해 아래 사용 환경을 참고해 주세요.",
+        "- 사용 환경의 습도를 낮추고, 통풍이 잘 되도록 해 습기를 제거해 주세요.",
+        "- 정기적으로 염분을 제거하고 방청 처리를 해주세요.",
+        "다이나믹셀 X 시리즈와 전압 범위가 다르므로 주의하시기 바랍니다. 사용 전압은 24V입니다.",
+        "고용량 모델은 사용 갯수에 따라 별도의 전원단자를 통해 전원공급해주는 것을 권장합니다.",
+        "장시간 사용 시 발열에 주의하시기 바랍니다.",
+        "본 제품은 싸이클로이드 감속기와 모터가 일체형으로 구성된 제품으로 임의로 제품을 분해하지 마시기 바랍니다.",
+        "도면에 표기된 탭 깊이를 고려하여 볼트의 길이에 맞는 프레임을 사용하시기 바랍니다.",
+        "제품 구매 후 멀티턴 백업 배터리를 연결한 후에 사용해야 합니다.",
+        "사용 목적에 따라 감속기, 리니어 및 서보 실린더 등 다양한 제품과 결합할 때는 도면을 참고하시기 바랍니다.",
+        "그 외 주의사항은 e-메뉴얼을 참고 바랍니다."
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_66415f7a_icon_dxl-y.png",
+        "https://www.robotis.com/data/item/sharedfile/240320191751_6VMkjrZK_ebfb7807e29188157ca8e27f8fad2d95e462ad9f.png",
+        "https://www.robotis.com/data/item/explain/",
+        "https://www.robotis.com/data/item/explain/1893207946_c45bcc0c_nx13_a01_bat_change_02.2182.png",
+        "https://www.robotis.com/data/item/explain/1893207946_027eaa22_nx13_a01_mr_rev1.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_b74afdf2_dy-02.jpg"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym070-210-r099-rh/"
+        },
+        {
+          "title": "도면 자료실",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym070-210-r099-rh/#%EB%8F%84%EB%A9%B4"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0200-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 21
+    },
+    {
+      "id": "902-0199-000",
+      "name": "YM070-210-R051-RH",
+      "summary": "24V / 8.2Nm/ 39.2rpm / BLDC / Cycloid / RS-485 / Multi-turn encoder",
+      "price": 2629000,
+      "priceLabel": "",
+      "imageUrl": "/media/bd91b2c97a3423e802.jpg",
+      "gallery": [
+        "/media/bd91b2c97a3423e802.jpg",
+        "https://www.robotis.com/data/item/902-0199-000/YM070210R051RH_500_bottom.jpg",
+        "https://www.robotis.com/data/item/902-0199-000/DXLY_Model_Numbering_02.jpg",
+        "https://www.robotis.com/data/item/902-0199-000/1710931908_96_DXLY_dimensionYM070210R051RH.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/902-0199-000/YM070210R051RH_500.jpg",
+      "categoryIds": [
+        "2050",
+        "205010"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "Y",
+      "communication": "RS-485",
+      "torqueNm": 8.2,
+      "voltageV": 24,
+      "speedRpm": 39.2,
+      "leadTime": "56일 (휴일미포함)",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0199-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        },
+        {
+          "label": "준비기간",
+          "value": "56일 (휴일미포함)"
+        }
+      ],
+      "description": [
+        "본 제품인 YM070-210-R051-RH은 DYNAMIXEL DRIVE (DYD) DYD-14H-051 모델의 사이클로이드 감속기가 내장된 일체형 로봇 액츄에이터입니다.",
+        "제품을 구매한 후에는 DYNAMIXEL DRIVE (DYD)를 변경할 수 없습니다.",
+        "중공축 형태의 고성능 프레임리스 모터",
+        "전류 감지를 기반으로 한 토크 제어",
+        "위치 및 속도 제어의 신뢰성 및 정확성을 높이기 위한 PID 제어",
+        "전원이 차단된 후에도 위치값을 저장할 수 있는 멀티턴 앱솔루트 엔코더 (백업 배터리)",
+        "메탈 하우징을 사용하여 높은 내구성을 갖춤",
+        "모듈화된 구성으로 다양한 자유도의 애플리케이션 제작에 용이",
+        "[주의!] 재질 특성상 사용 환경에 따라 녹이 발생할 수 있습니다.",
+        "이에 따른 수리진행은 비용이 발생할 수 있으니 녹 발생을 방지하기 위해 아래 사용 환경을 참고해 주세요.",
+        "- 사용 환경의 습도를 낮추고, 통풍이 잘 되도록 해 습기를 제거해 주세요.",
+        "- 정기적으로 염분을 제거하고 방청 처리를 해주세요.",
+        "다이나믹셀 X 시리즈와 전압 범위가 다르므로 주의하시기 바랍니다. 사용 전압은 24V입니다.",
+        "고용량 모델은 사용 갯수에 따라 별도의 전원단자를 통해 전원공급해주는 것을 권장합니다.",
+        "장시간 사용 시 발열에 주의하시기 바랍니다.",
+        "본 제품은 싸이클로이드 감속기와 모터가 일체형으로 구성된 제품으로 임의로 제품을 분해하지 마시기 바랍니다.",
+        "도면에 표기된 탭 깊이를 고려하여 볼트의 길이에 맞는 프레임을 사용하시기 바랍니다.",
+        "제품 구매 후 멀티턴 백업 배터리를 연결한 후에 사용해야 합니다.",
+        "사용 목적에 따라 감속기, 리니어 및 서보 실린더 등 다양한 제품과 결합할 때는 도면을 참고하시기 바랍니다.",
+        "그 외 주의사항은 e-메뉴얼을 참고 바랍니다."
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_d1d0f9c9_icon_dxl-y.png",
+        "https://www.robotis.com/data/item/sharedfile/240320191751_6VMkjrZK_ebfb7807e29188157ca8e27f8fad2d95e462ad9f.png",
+        "https://www.robotis.com/data/item/explain/",
+        "https://www.robotis.com/data/item/explain/1893207946_27961bb1_nx13_a01_bat_change_02.2182.png",
+        "https://www.robotis.com/data/item/explain/1893207946_eebfee4e_nx13_a01_mr_rev1.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_66774f94_dy-02.jpg"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym070-210-r051-rh/"
+        },
+        {
+          "title": "도면 자료실",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym070-210-r051-rh/#%EB%8F%84%EB%A9%B4"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0199-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 22
+    },
+    {
+      "id": "902-0198-000",
+      "name": "YM070-210-M001-RH",
+      "summary": "24V / 0.3Nm / 4,583rpm / BLDC / RS-485 / Multi-turn encoder",
+      "price": 1562000,
+      "priceLabel": "",
+      "imageUrl": "/media/126ce5747045af990a.jpg",
+      "gallery": [
+        "/media/126ce5747045af990a.jpg",
+        "https://www.robotis.com/data/item/902-0198-000/YM070210M001RH_500_bottom.jpg",
+        "https://www.robotis.com/data/item/902-0198-000/DXLY_Model_Numbering_01.jpg",
+        "https://www.robotis.com/data/item/902-0198-000/1710931712_8_DXLY_dimensionYM070210M001RH.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/902-0198-000/YM070210M001RH_500.jpg",
+      "categoryIds": [
+        "2050",
+        "205010"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "Y",
+      "communication": "RS-485",
+      "torqueNm": 0.3,
+      "voltageV": 24,
+      "speedRpm": 4583,
+      "leadTime": "",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0198-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        }
+      ],
+      "description": [
+        "본 제품인 YM070-210-M001-RH은 감속기를 포함하지 않은 제품으로, 사용 목적에 따라 감속기, 리니어 및 서보 실린더 등 다양한 제품과 결합하여 사용 가능합니다.",
+        "중공축 형태의 고성능 프레임리스 모터",
+        "전류 감지를 기반으로 한 토크 제어",
+        "위치 및 속도 제어의 신뢰성 및 정확성을 높이기 위한 PID 제어",
+        "전원이 차단된 후에도 위치값을 저장할 수 있는 멀티턴 앱솔루트 엔코더 (백업 배터리)",
+        "메탈 하우징을 사용하여 높은 내구성을 갖춤",
+        "모듈화된 구성으로 다양한 자유도의 애플리케이션 제작에 용이",
+        "상기 이미지는 이해를 돕기 위한 감속기를 포함한 분해도입니다.",
+        "본 제품에는 감속기가 포함되어있지 않습니다.",
+        "도면 다운로드",
+        "다이나믹셀 X 시리즈와 전압 범위가 다르므로 주의하시기 바랍니다. 사용 전압은 24V입니다.",
+        "고용량 모델은 사용 갯수에 따라 별도의 전원단자를 통해 전원공급해주는 것을 권장합니다.",
+        "장시간 사용 시 발열에 주의하시기 바랍니다.",
+        "도면에 표기된 탭 깊이를 고려하여 볼트의 길이에 맞는 프레임을 사용하시기 바랍니다.",
+        "제품 구매 후 멀티턴 백업 배터리를 연결한 후에 사용해야 합니다.",
+        "사용 목적에 따라 감속기, 리니어 및 서보 실린더 등 다양한 제품과 결합할 때는 도면을 참고하시기 바랍니다.",
+        "그 외 주의사항은 e-메뉴얼을 참고 바랍니다."
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_0fb68c12_icon_dxl-y.png",
+        "https://www.robotis.com/data/item/sharedfile/240320191751_6VMkjrZK_ebfb7807e29188157ca8e27f8fad2d95e462ad9f.png",
+        "https://www.robotis.com/data/item/explain/1893207946_2b8cec33_nx13_a01_bat_change_02.2182.png",
+        "https://www.robotis.com/data/item/explain/1893207946_cfd575bb_nx13_a01_m_rev1_page-0001.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_c2cb4ca2_dy-01.jpg"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym070-210-m001-rh/"
+        },
+        {
+          "title": "도면 자료실",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym070-210-m001-rh/#%EB%8F%84%EB%A9%B4"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0198-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 23
+    },
+    {
+      "id": "902-0208-000",
+      "name": "YM080-230-A051-RH",
+      "summary": "24V / 15.8Nm / 39.2rpm / BLDC / Cycloid / RS-485 / Multi-turn encoder",
+      "price": 3157000,
+      "priceLabel": "",
+      "imageUrl": "/media/536644f1da20e9a958.png",
+      "gallery": [
+        "/media/536644f1da20e9a958.png",
+        "https://www.robotis.com/data/item/902-0208-000_YM080230A099RH_bottom.png",
+        "https://www.robotis.com/data/item/902-0208-000/ModelNumbering_YM080230A051RH.png",
+        "https://www.robotis.com/data/item/902-0208-000/DXLY_dimensionYM080230A051RH.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/902-0208-000_YM080230A099RH.png",
+      "categoryIds": [
+        "2050",
+        "205010"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "Y",
+      "communication": "RS-485",
+      "torqueNm": 15.8,
+      "voltageV": 24,
+      "speedRpm": 39.2,
+      "leadTime": "",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0208-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        }
+      ],
+      "description": [
+        "본 제품인 YM080-230-A051-RH은 DYNAMIXEL DRIVE (DYD) DYD-17H-099 모델의 사이클로이드 감속기가 내장된 일체형 로봇 액츄에이터입니다.",
+        "제품을 구매한 후에는 DYNAMIXEL DRIVE (DYD)를 변경할 수 없습니다.",
+        "중공축 형태의 고성능 프레임리스 모터",
+        "전류 감지를 기반으로 한 토크 제어",
+        "위치 및 속도 제어의 신뢰성 및 정확성을 높이기 위한 PID 제어",
+        "전원이 차단된 후에도 위치값을 저장할 수 있는 멀티턴 앱솔루트 엔코더 (백업 배터리)",
+        "메탈 하우징을 사용하여 높은 내구성을 갖춤",
+        "모듈화된 구성으로 다양한 자유도의 애플리케이션 제작에 용이",
+        "[주의!] 재질 특성상 사용 환경에 따라 녹이 발생할 수 있습니다.",
+        "이에 따른 수리진행은 비용이 발생할 수 있으니 녹 발생을 방지하기 위해 아래 사용 환경을 참고해 주세요.",
+        "- 사용 환경의 습도를 낮추고, 통풍이 잘 되도록 해 습기를 제거해 주세요.",
+        "- 정기적으로 염분을 제거하고 방청 처리를 해주세요.",
+        "다이나믹셀 X 시리즈와 전압 범위가 다르므로 주의하시기 바랍니다. 사용 전압은 24V입니다.",
+        "고용량 모델은 사용 갯수에 따라 별도의 전원단자를 통해 전원공급해주는 것을 권장합니다.",
+        "장시간 사용 시 발열에 주의하시기 바랍니다.",
+        "본 제품은 싸이클로이드 감속기와 모터가 일체형으로 구성된 제품으로 임의로 제품을 분해하지 마시기 바랍니다.",
+        "도면에 표기된 탭 깊이를 고려하여 볼트의 길이에 맞는 프레임을 사용하시기 바랍니다.",
+        "제품 구매 후 멀티턴 백업 배터리를 연결한 후에 사용해야 합니다.",
+        "사용 목적에 따라 감속기, 리니어 및 서보 실린더 등 다양한 제품과 결합할 때는 도면을 참고하시기 바랍니다.",
+        "그 외 주의사항은 e-메뉴얼을 참고 바랍니다."
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_cffc4eeb_icon_dxl-y.png",
+        "https://www.robotis.com/data/item/sharedfile/240320191751_6VMkjrZK_ebfb7807e29188157ca8e27f8fad2d95e462ad9f.png",
+        "https://www.robotis.com/data/item/explain/",
+        "https://www.robotis.com/data/item/explain/1893207946_874ae9a3_nx13_a01_bat_change_02.2182.png",
+        "https://www.robotis.com/data/item/explain/1893207946_a4927f40_ym080-230-a000-rh.png",
+        "https://www.robotis.com/data/item/explain/1893207946_39ee0ba7_dy-04.jpg"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym080-230-a051-rh/"
+        },
+        {
+          "title": "도면 자료실",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym080-230-a051-rh/#%EB%8F%84%EB%A9%B4"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0208-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 24
+    },
+    {
+      "id": "902-0207-000",
+      "name": "YM080-230-B001-RH",
+      "summary": "24V / 0.6Nm / 2,597rpm / BLDC/ RS-485 / Multi-turn encoder",
+      "price": 2002000,
+      "priceLabel": "",
+      "imageUrl": "/media/16955ba8b75a4d15c9.png",
+      "gallery": [
+        "/media/16955ba8b75a4d15c9.png",
+        "https://www.robotis.com/data/item/902-0207-000/YM080230B001RH_bottom.png",
+        "https://www.robotis.com/data/item/902-0207-000/ModelNumbering_YM080230B001RH.png",
+        "https://www.robotis.com/data/item/902-0207-000/DXLY_dimensionYM080230B001RH.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/902-0207-000/YM080230B001RH_500.png",
+      "categoryIds": [
+        "2050",
+        "205010"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "Y",
+      "communication": "RS-485",
+      "torqueNm": 0.6,
+      "voltageV": 24,
+      "speedRpm": 2597,
+      "leadTime": "56일 (휴일미포함)",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0207-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        },
+        {
+          "label": "준비기간",
+          "value": "56일 (휴일미포함)"
+        }
+      ],
+      "description": [
+        "본 제품인 YM080-230-B001-RH은 감속기를 포함하지 않은 제품으로, 사용 목적에 따라 감속기, 리니어 및 서보 실린더 등 다양한 제품과 결합하여 사용 가능합니다.",
+        "중공축 형태의 고성능 프레임리스 모터",
+        "전류 감지를 기반으로 한 토크 제어",
+        "위치 및 속도 제어의 신뢰성 및 정확성을 높이기 위한 PID 제어",
+        "전원이 차단된 후에도 위치값을 저장할 수 있는 멀티턴 앱솔루트 엔코더 (백업 배터리)",
+        "메탈 하우징을 사용하여 높은 내구성을 갖춤",
+        "모듈화된 구성으로 다양한 자유도의 애플리케이션 제작에 용이",
+        "상기 이미지는 이해를 돕기 위한 감속기를 포함한 분해도입니다.",
+        "본 제품에는 감속기가 포함되어있지 않습니다.",
+        "도면 다운로드",
+        "다이나믹셀 X 시리즈와 전압 범위가 다르므로 주의하시기 바랍니다. 사용 전압은 24V입니다.",
+        "고용량 모델은 사용 갯수에 따라 별도의 전원단자를 통해 전원공급해주는 것을 권장합니다.",
+        "장시간 사용 시 발열에 주의하시기 바랍니다.",
+        "도면에 표기된 탭 깊이를 고려하여 볼트의 길이에 맞는 프레임을 사용하시기 바랍니다.",
+        "제품 구매 후 멀티턴 백업 배터리를 연결한 후에 사용해야 합니다.",
+        "사용 목적에 따라 감속기, 리니어 및 서보 실린더 등 다양한 제품과 결합할 때는 도면을 참고하시기 바랍니다.",
+        "그 외 주의사항은 e-메뉴얼을 참고 바랍니다."
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_6ef6e849_icon_dxl-y.png",
+        "https://www.robotis.com/data/item/sharedfile/240320191751_6VMkjrZK_ebfb7807e29188157ca8e27f8fad2d95e462ad9f.png",
+        "https://www.robotis.com/data/item/explain/1893207946_ed1df400_nx13_a01_bat_change_02.2182.png",
+        "https://www.robotis.com/data/item/explain/1893207946_e7750785_ym080-230-b001-rh.png",
+        "https://www.robotis.com/data/item/explain/1893207946_32fd529e_dy-01.jpg"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym080-230-b001-rh/"
+        },
+        {
+          "title": "도면 자료실",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym080-230-b001-rh/#%EB%8F%84%EB%A9%B4"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0207-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 25
+    },
+    {
+      "id": "902-0206-000",
+      "name": "YM070-210-A099-RH",
+      "summary": "24V / 14.6Nm / 20.2rpm / BLDC / Cycloid / RS-485 / Multi-turn encoder / Brake",
+      "price": 2849000,
+      "priceLabel": "",
+      "imageUrl": "/media/78da2f219efbe6b81a.png",
+      "gallery": [
+        "/media/78da2f219efbe6b81a.png",
+        "https://www.robotis.com/data/item/902-0206-000/YM070210A099RH_bottom.png",
+        "https://www.robotis.com/data/item/902-0206-000/ModelNumbering_YM070210A099RH.png",
+        "https://www.robotis.com/data/item/902-0206-000/DXLY_dimensionYM070210A051RH.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/902-0206-000/YM070210A099RH_500.png",
+      "categoryIds": [
+        "2050",
+        "205010"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "Y",
+      "communication": "RS-485",
+      "torqueNm": 14.6,
+      "voltageV": 24,
+      "speedRpm": 20.2,
+      "leadTime": "",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0206-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        }
+      ],
+      "description": [
+        "본 제품인 YM070-210-R099-RH은 DYNAMIXEL DRIVE (DYD) DYD-14H-099 모델의 사이클로이드 감속기가 내장된 일체형 로봇 액츄에이터입니다.",
+        "제품을 구매한 후에는 DYNAMIXEL DRIVE (DYD)를 변경할 수 없습니다.",
+        "중공축 형태의 고성능 프레임리스 모터",
+        "전류 감지를 기반으로 한 토크 제어",
+        "위치 및 속도 제어의 신뢰성 및 정확성을 높이기 위한 PID 제어",
+        "전원이 차단된 후에도 위치값을 저장할 수 있는 멀티턴 앱솔루트 엔코더 (백업 배터리)",
+        "메탈 하우징을 사용하여 높은 내구성을 갖춤",
+        "모듈화된 구성으로 다양한 자유도의 애플리케이션 제작에 용이",
+        "[주의!] 재질 특성상 사용 환경에 따라 녹이 발생할 수 있습니다.",
+        "이에 따른 수리진행은 비용이 발생할 수 있으니 녹 발생을 방지하기 위해 아래 사용 환경을 참고해 주세요.",
+        "- 사용 환경의 습도를 낮추고, 통풍이 잘 되도록 해 습기를 제거해 주세요.",
+        "- 정기적으로 염분을 제거하고 방청 처리를 해주세요.",
+        "다이나믹셀 X 시리즈와 전압 범위가 다르므로 주의하시기 바랍니다. 사용 전압은 24V입니다.",
+        "고용량 모델은 사용 갯수에 따라 별도의 전원단자를 통해 전원공급해주는 것을 권장합니다.",
+        "장시간 사용 시 발열에 주의하시기 바랍니다.",
+        "본 제품은 싸이클로이드 감속기와 모터가 일체형으로 구성된 제품으로 임의로 제품을 분해하지 마시기 바랍니다.",
+        "도면에 표기된 탭 깊이를 고려하여 볼트의 길이에 맞는 프레임을 사용하시기 바랍니다.",
+        "제품 구매 후 멀티턴 백업 배터리를 연결한 후에 사용해야 합니다.",
+        "사용 목적에 따라 감속기, 리니어 및 서보 실린더 등 다양한 제품과 결합할 때는 도면을 참고하시기 바랍니다.",
+        "그 외 주의사항은 e-메뉴얼을 참고 바랍니다."
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_af6adf37_icon_dxl-y.png",
+        "https://www.robotis.com/data/item/sharedfile/240320191751_6VMkjrZK_ebfb7807e29188157ca8e27f8fad2d95e462ad9f.png",
+        "https://www.robotis.com/data/item/explain/",
+        "https://www.robotis.com/data/item/explain/1893207946_5106dec8_ym070-210-a000-rh.png",
+        "https://www.robotis.com/data/item/explain/1893207946_e36efb53_dy-02.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_79c99f24_nx13_a01_bat_change_02.2182.png"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym070-210-a099-rh/"
+        },
+        {
+          "title": "도면 자료실",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym070-210-a099-rh/#%EB%8F%84%EB%A9%B4"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0206-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 26
+    },
+    {
+      "id": "902-0205-000",
+      "name": "YM070-210-A051-RH",
+      "summary": "24V / 8.2Nm/ 39.2rpm / BLDC / Cycloid / RS-485 / Multi-turn encoder / Brake",
+      "price": 2849000,
+      "priceLabel": "",
+      "imageUrl": "/media/e60c117f1d7380f65d.png",
+      "gallery": [
+        "/media/e60c117f1d7380f65d.png",
+        "https://www.robotis.com/data/item/902-0205-000/YM070210A099RH_bottom.png",
+        "https://www.robotis.com/data/item/902-0205-000/ModelNumbering_YM070210A051RH.png",
+        "https://www.robotis.com/data/item/902-0205-000/DXLY_dimensionYM070210A051RH.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/902-0205-000/YM070210A099RH_500.png",
+      "categoryIds": [
+        "2050",
+        "205010"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "Y",
+      "communication": "RS-485",
+      "torqueNm": 8.2,
+      "voltageV": 24,
+      "speedRpm": 39.2,
+      "leadTime": "",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0205-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        }
+      ],
+      "description": [
+        "본 제품인 YM070-210-R051-RH은 DYNAMIXEL DRIVE (DYD) DYD-14H-051 모델의 사이클로이드 감속기가 내장된 일체형 로봇 액츄에이터입니다.",
+        "제품을 구매한 후에는 DYNAMIXEL DRIVE (DYD)를 변경할 수 없습니다.",
+        "중공축 형태의 고성능 프레임리스 모터",
+        "전류 감지를 기반으로 한 토크 제어",
+        "위치 및 속도 제어의 신뢰성 및 정확성을 높이기 위한 PID 제어",
+        "전원이 차단된 후에도 위치값을 저장할 수 있는 멀티턴 앱솔루트 엔코더 (백업 배터리)",
+        "메탈 하우징을 사용하여 높은 내구성을 갖춤",
+        "모듈화된 구성으로 다양한 자유도의 애플리케이션 제작에 용이",
+        "[주의!] 재질 특성상 사용 환경에 따라 녹이 발생할 수 있습니다.",
+        "이에 따른 수리진행은 비용이 발생할 수 있으니 녹 발생을 방지하기 위해 아래 사용 환경을 참고해 주세요.",
+        "- 사용 환경의 습도를 낮추고, 통풍이 잘 되도록 해 습기를 제거해 주세요.",
+        "- 정기적으로 염분을 제거하고 방청 처리를 해주세요.",
+        "다이나믹셀 X 시리즈와 전압 범위가 다르므로 주의하시기 바랍니다. 사용 전압은 24V입니다.",
+        "고용량 모델은 사용 갯수에 따라 별도의 전원단자를 통해 전원공급해주는 것을 권장합니다.",
+        "장시간 사용 시 발열에 주의하시기 바랍니다.",
+        "본 제품은 싸이클로이드 감속기와 모터가 일체형으로 구성된 제품으로 임의로 제품을 분해하지 마시기 바랍니다.",
+        "도면에 표기된 탭 깊이를 고려하여 볼트의 길이에 맞는 프레임을 사용하시기 바랍니다.",
+        "제품 구매 후 멀티턴 백업 배터리를 연결한 후에 사용해야 합니다.",
+        "사용 목적에 따라 감속기, 리니어 및 서보 실린더 등 다양한 제품과 결합할 때는 도면을 참고하시기 바랍니다.",
+        "그 외 주의사항은 e-메뉴얼을 참고 바랍니다."
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_415bbcea_icon_dxl-y.png",
+        "https://www.robotis.com/data/item/sharedfile/240320191751_6VMkjrZK_ebfb7807e29188157ca8e27f8fad2d95e462ad9f.png",
+        "https://www.robotis.com/data/item/explain/",
+        "https://www.robotis.com/data/item/explain/1893207946_bd99105f_ym070-210-a000-rh.png",
+        "https://www.robotis.com/data/item/explain/1893207946_11f25407_dy-02.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_5a1e4822_nx13_a01_bat_change_02.2182.png"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym070-210-a051-rh/"
+        },
+        {
+          "title": "도면 자료실",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym070-210-a051-rh/#%EB%8F%84%EB%A9%B4"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0205-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 27
+    },
+    {
+      "id": "902-0204-000",
+      "name": "YM070-210-B001-RH",
+      "summary": "24V / 0.3Nm / 4,583rpm / BLDC / RS-485 / Multi-turn encoder / Brake",
+      "price": 1782000,
+      "priceLabel": "",
+      "imageUrl": "/media/71a7f44743cc7a8020.png",
+      "gallery": [
+        "/media/71a7f44743cc7a8020.png",
+        "https://www.robotis.com/data/item/902-0204-000/YM070210B001RH_bottom.png",
+        "https://www.robotis.com/data/item/902-0204-000/ModelNumbering_YM070200B001RH.png",
+        "https://www.robotis.com/data/item/902-0204-000/DXLY_dimension_YM070210B001RH.jpg"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/902-0204-000/YM070210B001RH_500.png",
+      "categoryIds": [
+        "2050",
+        "205010"
+      ],
+      "categoryName": "다이나믹셀",
+      "series": "Y",
+      "communication": "RS-485",
+      "torqueNm": 0.3,
+      "voltageV": 24,
+      "speedRpm": 4583,
+      "leadTime": "56일 (휴일미포함)",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "902-0204-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        },
+        {
+          "label": "준비기간",
+          "value": "56일 (휴일미포함)"
+        }
+      ],
+      "description": [
+        "본 제품인 YM070-210-B001-RH은 감속기를 포함하지 않은 제품으로, 사용 목적에 따라 감속기, 리니어 및 서보 실린더 등 다양한 제품과 결합하여 사용 가능합니다.",
+        "중공축 형태의 고성능 프레임리스 모터",
+        "전류 감지를 기반으로 한 토크 제어",
+        "위치 및 속도 제어의 신뢰성 및 정확성을 높이기 위한 PID 제어",
+        "전원이 차단된 후에도 위치값을 저장할 수 있는 멀티턴 앱솔루트 엔코더 (백업 배터리)",
+        "메탈 하우징을 사용하여 높은 내구성을 갖춤",
+        "모듈화된 구성으로 다양한 자유도의 애플리케이션 제작에 용이",
+        "상기 이미지는 이해를 돕기 위한 감속기를 포함한 분해도입니다.",
+        "본 제품에는 감속기가 포함되어있지 않습니다.",
+        "도면 다운로드",
+        "다이나믹셀 X 시리즈와 전압 범위가 다르므로 주의하시기 바랍니다. 사용 전압은 24V입니다.",
+        "고용량 모델은 사용 갯수에 따라 별도의 전원단자를 통해 전원공급해주는 것을 권장합니다.",
+        "장시간 사용 시 발열에 주의하시기 바랍니다.",
+        "도면에 표기된 탭 깊이를 고려하여 볼트의 길이에 맞는 프레임을 사용하시기 바랍니다.",
+        "제품 구매 후 멀티턴 백업 배터리를 연결한 후에 사용해야 합니다.",
+        "사용 목적에 따라 감속기, 리니어 및 서보 실린더 등 다양한 제품과 결합할 때는 도면을 참고하시기 바랍니다.",
+        "그 외 주의사항은 e-메뉴얼을 참고 바랍니다."
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_6f8b2091_icon_dxl-y.png",
+        "https://www.robotis.com/data/item/sharedfile/240320191751_6VMkjrZK_ebfb7807e29188157ca8e27f8fad2d95e462ad9f.png",
+        "https://www.robotis.com/data/item/explain/1893207946_ce1363ca_ym070-210-b001-rh.png",
+        "https://www.robotis.com/data/item/explain/1893207946_481c3d9c_dy-01.jpg",
+        "https://www.robotis.com/data/item/explain/1893207946_24103797_nx13_a01_bat_change_02.2182.png"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym070-210-b001-rh/"
+        },
+        {
+          "title": "도면 자료실",
+          "url": "https://emanual.robotis.com/docs/kr/dxl/y/ym070-210-b001-rh/#%EB%8F%84%EB%A9%B4"
+        },
+        {
+          "title": "소프트웨어 (다이나믹셀 위자드 2.0)",
+          "url": "https://emanual.robotis.com/docs/kr/software/dynamixel/dynamixel_wizard2/"
+        },
+        {
+          "title": "다이나믹셀 선택 가이드",
+          "url": "http://www.robotis.com/service/selection_guide.php"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=902-0204-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 28
+    },
+    {
+      "id": "905-0027-000",
+      "name": "RM-P60-RNH",
+      "summary": "오픈매니퓰레이터-프로, 6DOF 로봇팔",
+      "price": 16940000,
+      "priceLabel": "",
+      "imageUrl": "/media/d7ff9a34fb7e05c888.png",
+      "gallery": [
+        "/media/d7ff9a34fb7e05c888.png"
+      ],
+      "sourceImageUrl": "https://www.robotis.com/data/item/905-0027-000/thumb_openMPP_500.png",
+      "categoryIds": [
+        "4030"
+      ],
+      "categoryName": "전문가용로봇",
+      "series": "",
+      "communication": "",
+      "torqueNm": null,
+      "voltageV": null,
+      "speedRpm": null,
+      "leadTime": "40일 (휴일미포함)",
+      "manufacturer": "(주)로보티즈",
+      "countryOfOrigin": "한국",
+      "specifications": [
+        {
+          "label": "상품코드",
+          "value": "905-0027-000"
+        },
+        {
+          "label": "제조사",
+          "value": "(주)로보티즈"
+        },
+        {
+          "label": "원산지",
+          "value": "한국"
+        },
+        {
+          "label": "준비기간",
+          "value": "40일 (휴일미포함)"
+        }
+      ],
+      "description": [
+        "200W / 2ea",
+        "100W / 2ea",
+        "20W / 2ea",
+        "Controller",
+        "ROBOTIS Manipulator 통합 소프트웨어 기반 컨트롤러 패키지 제공",
+        "Kinematics, Trajectory, Dynamixel Controller를 포함한 OpenMANIPULATOR-P 라이브러리 제공",
+        "제어 파라미터 설정 및 모니터링을 위한 GUI 프로그램 패키지 제공",
+        "OpenMANIPULATOR-P의 MoveIt! 패키지 제공",
+        "Gazebo Simulator를 기반으로 한 시뮬레이션 패키지 제공",
+        "keyboard, Joystick을 포함한 Teleoperation 예제 패키지 제공",
+        "교육 및 연구",
+        "기구학, 동역학 실험 실습",
+        "양팔로봇 시스템 설계 및 연구",
+        "모바일 로봇 시스템 구축",
+        "산업현장 운용",
+        "검사장비 구축",
+        "소규모 이송 시스템",
+        "[OpenMANIPULATOR-P]에는 제어용 PC와 전원공급장치가 포함되어 있지 않습니다.",
+        "사용환경에 따라 적합한 사양의 제품을 별도로 마련해 사용하시기 바랍니다.",
+        "일체형 모듈",
+        "DC모터 + 컨트롤러 + 드라이버 + 센서 + 싸이클로이드 감속기",
+        "소형, 경량 실현",
+        "자체 개발한 소형, 경량의 싸이클로이드 감속기로 모듈 크기 최소화",
+        "높은 무게대 출력비 구현 (0.05Nm/g)",
+        "동급 대비 높은 내충격성 지수 (400% 이상)",
+        "정밀제어 및 낮은 백래쉬",
+        "인크리멘털 엔코더와 최종축 절대위치 인식용 비접촉식 마그네틱 엔코더 탑재",
+        "3~4arcmin의 낮은 백래쉬 달성",
+        "KOLAS(한국교정시험기관인정기구) 교정 시험장비로 측정한 성능 데이터 제공",
+        "전류센싱 기반 토크 제어",
+        "고속 전류 센싱 알고리즘 및 전류 피드백 제어 기능 구현",
+        "속도, 위치 제어 방식과의 복합 제어 기능 제공",
+        "손쉬운 개발 환경 제공",
+        "C언어 기반 라이브러리 제공",
+        "다양한 솔루션의 예제 지원 (C++, LabVIEW, C#, eclipse, JAVA, etc..)"
+      ],
+      "detailImages": [
+        "https://www.robotis.com/data/item/explain/1893207946_d0c9aecb_img_prd_openmanipulator_pro_3.png",
+        "https://www.robotis.com/data/item/explain/1893207946_b7d5b418_img_prd_openmanipulator_pro_4.png",
+        "https://www.robotis.com/data/item/explain/1893207946_044f63de_img_prd_openmanipulator_pro_5.png",
+        "https://www.robotis.com/data/item/explain/1893207946_a8a3d201_img_prd_openmanipulator_pro_6.png",
+        "https://www.robotis.com/data/item/explain/1893207946_7b470889_img_prd_openmanipulator_pro_9.png",
+        "https://www.robotis.com/data/item/sharedfile/200109171019_N4EMLsZ6_106b3e5867ea557a4748145afc758e5e53b00a54.jpg"
+      ],
+      "resources": [
+        {
+          "title": "e-매뉴얼 바로가기",
+          "url": "http://emanual.robotis.com/docs/en/platform/openmanipulator_pro/overview/"
+        },
+        {
+          "title": "도면 자료실",
+          "url": "http://www.robotis.com/service/downloadpage.php?ca_id=70b0"
+        },
+        {
+          "title": "다이나믹셀 SDK",
+          "url": "https://github.com/ROBOTIS-GIT/open_manipulator"
+        }
+      ],
+      "sourceUrl": "https://www.robotis.com/shop/item.php?it_id=905-0027-000",
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+      "published": true,
+      "sortOrder": 29
+    }
+  ],
+  "banners": [
+    {
+      "id": "hero-1",
+      "title": "DYNAMIXEL-Y",
+      "imageUrl": "/media/a75bc8aa9c3c5796ab.png",
+      "sourceImageUrl": "https://www.robotis.com/data/banner/1893207946_1lb4382a_658a788261f39115b02f73ba4e6b3ff3e59c9f6d.png",
+      "thumbnailUrl": "/media/b6bf1b58fbf5a99e5d.png",
+      "mobileImageUrl": "/media/9aa25934db0930a83c.png",
+      "sourceLink": "https://www.robotis.com/shop/list.php?ca_id=205010",
+      "categoryId": "205010",
+      "productId": null,
+      "order": 0,
+      "published": true,
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z"
+    },
+    {
+      "id": "hero-2",
+      "title": "DYNAMIXEL DRIVE (DYD)",
+      "imageUrl": "/media/15059e07ff5c24c172.png",
+      "sourceImageUrl": "https://www.robotis.com/data/banner/1893207946_9drtpihf_eba05ac7733b5602930353158c6b3fdcabc86b3b.png",
+      "thumbnailUrl": "/media/caaa55fe39451f0b11.png",
+      "mobileImageUrl": "/media/b947f5807100196f3e.png",
+      "sourceLink": "https://www.robotis.com/shop/list.php?ca_id=2040",
+      "categoryId": "2040",
+      "productId": null,
+      "order": 1,
+      "published": true,
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z"
+    },
+    {
+      "id": "hero-3",
+      "title": "DYNAMIXEL-X",
+      "imageUrl": "/media/d891a37d77e05840bc.png",
+      "sourceImageUrl": "https://www.robotis.com/data/banner/1893207946_j018htc4_331213a8256deed34288405212a9bb4c0ae0582f.png",
+      "thumbnailUrl": "/media/7854f19431559c6109.png",
+      "mobileImageUrl": "/media/208a9f58295f2d2da1.png",
+      "sourceLink": "https://www.robotis.com/shop/list.php?ca_id=2020&utm_source=shop_main_bn&utm_medium=dxl_x&utm_campaign=robotis_kr_BN",
+      "categoryId": "2020",
+      "productId": null,
+      "order": 2,
+      "published": true,
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z"
+    },
+    {
+      "id": "hero-4",
+      "title": "RM-P60-RNH",
+      "imageUrl": "/media/14d8604c786027a58c.png",
+      "sourceImageUrl": "https://www.robotis.com/data/banner/1893207946_u4glajib_2f2c0aa0680a6a3e32c6bbbae7cd4b169fd5eefb.png",
+      "thumbnailUrl": "/media/2d36f06eb93acd8ea6.png",
+      "mobileImageUrl": "/media/f57830a59093f749b2.png",
+      "sourceLink": "https://www.robotis.com/shop/item.php?it_id=905-0027-000&utm_source=shop_main_bn&utm_medium=openmanipulator&utm_campaign=robotis_kr_BN",
+      "categoryId": null,
+      "productId": "905-0027-000",
+      "order": 3,
+      "published": true,
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z"
+    },
+    {
+      "id": "hero-5",
+      "title": "TurtleBot3",
+      "imageUrl": "/media/e56fd7c876d89c2be1.png",
+      "sourceImageUrl": "https://www.robotis.com/data/banner/1893207946_78rm0h6o_d488655c3f378ad671ef7504bdaabae1152afed0.png",
+      "thumbnailUrl": "/media/dfd5257d66df1ed0f1.png",
+      "mobileImageUrl": "/media/e18328f629ab358b2d.png",
+      "sourceLink": "https://www.robotis.com/shop/list.php?ca_id=4050&utm_source=shop_main_bn&utm_medium=turtlebot3&utm_campaign=robotis_kr_BN",
+      "categoryId": "4050",
+      "productId": null,
+      "order": 4,
+      "published": true,
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z"
+    },
+    {
+      "id": "hero-6",
+      "title": "ENGINEER KIT",
+      "imageUrl": "/media/2b17052521a7cc7ec2.png",
+      "sourceImageUrl": "https://www.robotis.com/data/banner/1893207946_uboljt6c_e8527cd31a6c6cc13ffc097fc071177149f9b379.png",
+      "thumbnailUrl": "/media/5730a4febcbe16d538.png",
+      "mobileImageUrl": "/media/95ac6a43d69186f8cd.png",
+      "sourceLink": "https://www.robotis.com/shop/list.php?ca_id=102040&utm_source=shop_main_bn&utm_medium=engineerkit&utm_campaign=robotis_kr_BN",
+      "categoryId": "102040",
+      "productId": null,
+      "order": 5,
+      "published": true,
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z"
+    },
+    {
+      "id": "hero-7",
+      "title": "실과로봇",
+      "imageUrl": "/media/59deeae13bfbbbdf05.png",
+      "sourceImageUrl": "https://www.robotis.com/data/banner/1893207946_kf5y2e36_d76f6331e63f3e6c5f3ccc45d71a506b72ef8ed2.png",
+      "thumbnailUrl": "/media/d53cd76a043c451dc2.png",
+      "mobileImageUrl": "/media/6a6aa72c6b618026ea.png",
+      "sourceLink": "https://www.robotis.com/shop/list.php?ca_id=103050",
+      "categoryId": "103050",
+      "productId": null,
+      "order": 6,
+      "published": true,
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z"
+    },
+    {
+      "id": "hero-8",
+      "title": "아카데미 프로모션",
+      "imageUrl": "/media/896cc0441e5d555822.png",
+      "sourceImageUrl": "https://www.robotis.com/data/banner/1893207946_yw46psxc_c633b752a8100904daaa6a95acf9ff3980b62a61.png",
+      "thumbnailUrl": "/media/5a159d60417a162a59.png",
+      "mobileImageUrl": "/media/a1bd223b05af547091.png",
+      "sourceLink": "https://www.robotis.com/model/board.php?bo_table=store_notice&wr_id=51",
+      "categoryId": null,
+      "productId": null,
+      "order": 7,
+      "published": true,
+      "sourceUpdatedAt": "2026-10-28T07:05:19.629Z"
+    }
+  ],
+  "siteContent": {
+    "logoUrl": "/media/593d4452dc71725fbf.png",
+    "navigation": [
+      {
+        "id": "actuators",
+        "title": "다이나믹셀",
+        "items": [
+          {
+            "title": "다이나믹셀-Y",
+            "categoryId": "2050"
+          },
+          {
+            "title": "다이나믹셀-X",
+            "categoryId": "2020"
+          },
+          {
+            "title": "다이나믹셀-P",
+            "categoryId": "2030"
+          },
+          {
+            "title": "다이나믹셀 드라이브 (DYD)",
+            "categoryId": "2040"
+          },
+          {
+            "title": "다이나믹셀",
+            "categoryId": "2010"
+          }
+        ]
+      },
+      {
+        "id": "robots",
+        "title": "전문가용 로봇",
+        "items": [
+          {
+            "title": "AI Worker",
+            "categoryId": "408010"
+          },
+          {
+            "title": "AI 매니퓰레이터",
+            "categoryId": "4060"
+          },
+          {
+            "title": "오픈매니퓰레이터",
+            "categoryId": "4030"
+          },
+          {
+            "title": "터틀봇3",
+            "categoryId": "4050"
+          },
+          {
+            "title": "로봇핸드",
+            "categoryId": "4010"
+          },
+          {
+            "title": "로보티즈 OP",
+            "categoryId": "4020"
+          },
+          {
+            "title": "THORMANG",
+            "categoryId": "4040"
+          }
+        ]
+      },
+      {
+        "id": "parts",
+        "title": "로봇부품",
+        "items": [
+          {
+            "title": "제어기",
+            "categoryId": "3040"
+          },
+          {
+            "title": "연결부품",
+            "categoryId": "3010"
+          },
+          {
+            "title": "기타부품",
+            "categoryId": "3020"
+          },
+          {
+            "title": "서적/공구",
+            "categoryId": "3030"
+          }
+        ]
+      },
+      {
+        "id": "education",
+        "title": "스팀컵인증키트",
+        "items": [
+          {
+            "title": "중/고등용 로봇",
+            "categoryId": "1020"
+          },
+          {
+            "title": "초등용 로봇",
+            "categoryId": "1030"
+          },
+          {
+            "title": "유아용 로봇",
+            "categoryId": "1010"
+          },
+          {
+            "title": "알쥐",
+            "categoryId": "1050"
+          },
+          {
+            "title": "꼭두",
+            "categoryId": "1060"
+          },
+          {
+            "title": "알라",
+            "categoryId": "1080"
+          },
+          {
+            "title": "바디",
+            "categoryId": "1070"
+          }
+        ]
+      }
+    ],
+    "homeSections": [
+      {
+        "id": "new",
+        "title": "신제품",
+        "subtitle": "따끈따끈한 신제품",
+        "productIds": [
+          "905-0058-000",
+          "902-0216-000",
+          "905-0054-000",
+          "905-0047-000",
+          "902-0209-000"
+        ],
+        "order": 0
+      },
+      {
+        "id": "recommended",
+        "title": "추천액츄에이터",
+        "subtitle": "로봇전용 서보-다이나믹셀",
+        "productIds": [
+          "902-0216-000",
+          "902-0159-000",
+          "902-0173-000",
+          "902-0171-000",
+          "902-0175-000"
+        ],
+        "order": 1
+      },
+      {
+        "id": "education",
+        "title": "BEST 교육키트",
+        "subtitle": "최고 판매량 교육키트",
+        "productIds": [
+          "921-0158-000",
+          "921-0162-000",
+          "901-0153-100",
+          "901-0157-100"
+        ],
+        "order": 2
+      },
+      {
+        "id": "bulk",
+        "title": "벌크포장 상품",
+        "subtitle": "다이나믹셀을 저렴하게 사는 방법",
+        "productIds": [
+          "902-0010-001",
+          "902-0100-000",
+          "902-0099-000",
+          "902-0101-000",
+          "902-0072-000"
+        ],
+        "order": 3
+      }
+    ],
+    "sourceUpdatedAt": "2026-10-28T07:05:19.629Z",
+    "shipping": [
+      "1. 당일 17시 이전까지 주문은 다음 날 출고, 17시 이후 주문은 이틀 후 출고됩니다. (휴일 제외)",
+      "2. 퀵서비스 배송은 주문시 비고란에 적어주시면 다음날 출고 가능합니다. 단, 배송비는 수령자가 착불로 부담해야 합니다.",
+      "3. 로보티즈로 방문하셔서 현장 구매는 불가능합니다.",
+      "4. 방문수령을 원하실 경우, 온라인스토어로 주문 후 비고란에 [방문수령 희망]이라고 작성해 주시고, 주문 다음날 17시~18시 사이에 로보티즈 본사로 방문하시면 직접 수령할 수 있습니다. (단, 일부 품목 제외)",
+      "5. 배송기간 : 입금 확인 후 4 ~ 10일 (도서/산간지역의 경우 2 ~ 3일 정도 추가 소요) / 단, 공휴일은 배송기간에 포함되지 않음.",
+      "6. 배송지역 : 전국",
+      "7. 배송비 : 결제액 5만원 이상시 무료, 5만원 미만시 고객부담 (3,000원) (일부 도서/산간지역은 추가 배송비 발생)",
+      "8. 배송조회 : 본 스토어에 로그인 후 [주문조회] 또는 [마이페이지] 메뉴를 통해 확인 가능합니다. 제품 발송 후 고객님께 이메일로 전달된 운송장 번호로 조회하시면 실시간으로 제품의 이동 상황을 확인할 수 있습니다."
+    ],
+    "returns": [
+      "1. 교환 및 반품을 원할 경우에는 로보티즈 온라인 스토어의 [1:1문의 하기] 게시판에 반품 또는 교환 요청 글을 쓰신 후에 제품을 보내주시면 됩니다.",
+      "2. 단순 변심일 경우, 물품 수령 후 7일 이내 반품 및 교환 가능이 가능하며, 이 경우 최초 배송비를 포함한 왕복 배송비는 구매자가 부담합니다. (전자상거래 등에서의 소비자보호에 관한 법률」 제18조 제9항)",
+      "3. 표시, 광고 내용과 상이하거나 물품 하자인 경우, 물품 수령 후 3개월 이내 또는 그 사실을 안 날 또는 알 수 있었던 날로부터 30일 이내에 교환 및 반품이 가능하며 배송비는 당사가 부담합니다.",
+      "(전자상거래 등에서의 소비자보호에 관한 법률」 제18조 제10항)",
+      "4. 물품하자인 경우 동일 상품 또는 다른 상품으로 교환 가능하며, 차액 입금 또는 환불 처리 후 배송합니다.",
+      "5. 환불은 제품 반송 완료 후 3일 이내 처리해 드립니다. (카드 승인 취소 또는 온라인 무통장 입금)",
+      "6. 제품이 손상되면 반품이 되지 않으니 포장에 유의해서 보내주셔야 합니다.",
+      "7. 만약 제품이 7일 이내에 저희 반품 처에 도착하지 않을 경우 교환 및 환불은 불가능하오니 빠른 배송 부탁드립니다.",
+      "8. 교환 및 반품 시 다른 택배사를 이용할 경우 발생하는 추가 요금은 구매자가 부담해야 하니 반드시 지정택배를 이용해 주시기 바랍니다. (로젠택배 0505-2788-204)",
+      "9. 반품처 주소 : 서울특별시 강서구 마곡중앙5로1길 37 (우편번호: 07594) 로보티즈 캠퍼스 2층 생산본부 (TEL : 070-8671-2600)",
+      "[교환 및 반품이 불가능한 경우]",
+      "1. 구매일로부터 30일이 초과한 경우",
+      "2. 고객님의 책임 있는 사유로 상품 등이 멸실 또는 훼손된 경우 (단, 상품의 내용을 확인하기 위하여 포장 등을 훼손한 경우는 제외)",
+      "3. 고객님의 사용 또는 일부 소비에 의하여 상품의 가치가 현저히 감소한 경우",
+      "4. 시간의 경과에 의하여 재판매가 곤란할 정도로 상품 등의 가치가 현저히 감소한 경우"
+    ]
+  }
+}
