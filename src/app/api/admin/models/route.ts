@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { CadError, convertStep } from "@/lib/cad-converter";
 
 export const runtime = "nodejs";
-export const maxDuration = 360;
+export const maxDuration = 300;
 let converting = false;
 
 export async function POST(request: Request) {

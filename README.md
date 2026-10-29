@@ -46,6 +46,21 @@ FIREBASE_ADMIN_KEY_PATH=./robotis-shop-firebase-adminsdk.json
 
 `.env.local`에 위 서버 인증 경로를 설정합니다. 서비스 계정 JSON과 `.env.local`은 Git 제외 대상입니다. 브라우저의 공개 웹 설정과 서버 인증 키는 별개입니다.
 
+### Vercel의 서버 전용 Secret 설정
+
+Vercel 프로젝트의 **Settings → Environment Variables**에 다음 두 값을 등록합니다.
+
+| 이름 | 값 | 타입 |
+| --- | --- | --- |
+| `NEXT_PUBLIC_FIREBASE_PROJECT_ID` | `robotis-shop` | Config |
+| `FIREBASE_ADMIN_SERVICE_ACCOUNT_JSON` | 로컬 서비스 계정 JSON 파일의 전체 내용 | Secret |
+
+배포할 환경(Production, 필요하면 Preview)을 선택하고 저장한 뒤 재배포합니다. JSON은 Base64로 변환하거나 추가 따옴표로 감싸지 않고 파일 내용 그대로 등록합니다. `private_key` 안의 `\n`도 그대로 유지합니다. 비공개 키가 포함된 값에는 `NEXT_PUBLIC_` 접두사를 붙이지 않습니다.
+
+Vercel에는 `FIREBASE_ADMIN_KEY_PATH`를 등록할 필요가 없습니다. 앱과 데이터 스크립트는 JSON 환경변수를 우선 사용하고, 값이 비어 있을 때만 로컬 인증 파일을 읽습니다. 잘못된 JSON은 파일 인증으로 우회하지 않고 오류를 반환하며 인증값을 오류 메시지에 포함하지 않습니다.
+
+이 설정은 Firestore 인증을 위한 것입니다. 현재 STEP 변환에 사용하는 Blender·Open CASCADE와 영구 파일 저장소는 Vercel에 그대로 배포할 수 없으며, 아래 CAD 변환 절의 별도 서버·저장소 구성이 필요합니다.
+
 화면은 `src/lib/shop-data.ts`의 Firebase Admin SDK 조회 결과로 렌더링됩니다. `data/catalog.json`을 읽는 것은 가져오기 스크립트뿐이며, 앱은 이 파일을 로컬 대체 데이터로 사용하지 않습니다. 요청 내 중복 조회만 React `cache`로 합치고, 세 페이지는 `force-dynamic`으로 최신 DB 내용을 읽습니다.
 
 관리자 저장은 Server Actions에서 입력을 검증한 뒤 같은 Firestore에 기록하고 Next.js 캐시를 갱신합니다. 같은 브라우저·출처에서 열어 둔 스토어 탭은 BroadcastChannel 알림을 받아 새 데이터를 조회합니다. 상품 삭제는 복구할 수 있도록 문서를 보관하고 `deleted: true`, `published: false`로 전환하며, 메인 구좌의 상품 연결도 같은 트랜잭션에서 제거합니다. 삭제 상품은 관리자의 상태 검색에서 조회하고 상세 화면에서 저장해 복구할 수 있습니다.
