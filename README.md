@@ -2,6 +2,8 @@
 
 원본 ROBOTIS의 메인 구성을 유지하고 상품 목록과 상세 정보를 다듬은 Next.js 14 프로젝트입니다. 스토어 세 화면과 React·Next.js 기반 관리자를 제공합니다.
 
+[포트폴리오 PDF](docs/ROBOTIS_Store_Portfolio.pdf)
+
 ## 실행
 
 Node.js 22 이상을 사용합니다.

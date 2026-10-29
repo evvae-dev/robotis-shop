@@ -11,8 +11,5 @@ firebase-api.json
 .venv-cad/
 .tools/
 .data/
-tmp/pdfs/robotis-portfolio/rendered/
-tmp/pdfs/robotis-portfolio/contact-*.png
-tmp/pdfs/robotis-portfolio/*-verification.json
-tmp/pdfs/robotis-portfolio/layout-checks.json
-tmp/pdfs/robotis-portfolio/extracted-text.txt
+/output/
+/tmp/
